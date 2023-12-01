@@ -1,14 +1,14 @@
 
 import Home from "../app/page";
-import Footer from "../app/components/footer";
-import Header from "../app/components/header";
+// import Footer from "../app/components/footer";
+// import Header from "../app/components/header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function contact() {
     return (
         <div>
 
-            <Header/>
+            {/* <Header/> */}
 
             <div className="contactBg" style={{ height: "500px", position: "relative"}}>
             <div className="" style={{
@@ -110,6 +110,6 @@ export default function contact() {
             </div>
             <br></br>
             <br></br>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )}

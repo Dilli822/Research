@@ -2,15 +2,15 @@
 
 
 import Home from "../app/page";
-import Footer from "../app/components/footer";
-import Header from "../app/components/header";
+// import Footer from "../app/components/footer";
+// import Header from "../app/components/header";
 
 
 
 export default function About() {
     return (
         <div>
-            <Header/>
+            {/* <Header/> */}
             
             <div className="container-fluid">
                 
@@ -218,6 +218,6 @@ export default function About() {
             
 
 
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )}
