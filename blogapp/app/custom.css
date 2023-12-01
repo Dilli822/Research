@@ -1,0 +1,244 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+
+  header,footer{
+    background-color: #0a0a0a;
+    color: #fff;
+  }
+  
+  .nav {
+    
+    width: 100%;
+   
+  
+    position: relative;
+  }
+
+  .nav-header{
+    width: 50%;
+  }
+  
+
+  nav ul li,
+  .nav > .nav-header {
+    display: inline;
+   
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    width: 50%;
+    display: inline;
+    float: right;
+    font-size: 18px;
+
+    float: none;
+    text-align: right;
+  
+    
+  }
+
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+
+
+  /* dl, ol, ul {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+  }
+   */
+
+  figure{
+    margin: 0;
+    padding: 5px;
+  }
+
+
+
+  /* Make the label look like a button*/
+.toggle-label{
+  border: 2px solid black;
+  padding: 15px;
+  cursor: pointer;
+}
+
+/* Make the checkbox dissapear */
+#cbToggleVisibility{
+  position: absolute;
+  left: -999999999px;
+}
+
+/* Make the #target display: none by default */
+.target{
+  display: none;
+}
+
+/* 
+Here is where the magic happens! 
+This is where the actual toggle visibility happens.
+*/
+#cbToggleVisibility:checked ~ .target{
+  display: block;
+}
+
+
+
+.article{
+  padding: 25px;
+}
+.sliderBg{
+  padding: 5rem;
+}
+
+
+.blogImg{
+  width: 500px;
+}
+
+  footer li a{
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+
+  .contactBg{
+    background-repeat: no-repeat, repeat;
+    background: url("https://unsplash.it/1400");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+
+  .contactForm .form-group{
+    margin: 10px 0;
+
+  }
+
+  .contactForm .form-group input {
+    min-height: 40px;
+    border-radius: 0;
+  }
+
+  @media (max-width: 990px) {
+    .articleStories > div {
+      padding: 10px;
+    }
+    h5, h6, p{
+      font-size: initial  !important;
+    }
+      
+
+    
+  }
+
+
+  @media (max-width:767px) {
+  
+    .blogImg{
+      width: 100%;
+    }
+    
+
+    .sliderBg{
+      padding: 0rem;
+    }
+
+    .head .container-fluid{
+      padding: 0!important;
+    }
+    .article{
+      padding: 5px;
+    }
+
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+      
+    }
+    .nav > .nav-links a{
+      display: block;
+      width: 100%;
+      text-align: left;
+      
+     
+    }
+    
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+
+
+
+
+
