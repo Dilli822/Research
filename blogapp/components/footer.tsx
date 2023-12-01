@@ -1,13 +1,11 @@
 
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
     return (
 <footer className='mt-3'>
 <div className="container-fluid">
   <div className="row d-flex align-items-center p-2">
-    <div className="col-6">
+    <div className="col-12 col-sm-6">
       <div className="d-flex align-items-center">
       <figure>
         <img src="https://unsplash.it/100" alt="logo" className='w-50 h-50'/>
@@ -20,7 +18,7 @@ export default function Footer() {
       </div>
   
 
-    <div className="col-6">
+    <div className="col-12 col-sm-6">
         <div className="d-flex justify-content-end"> 
       <nav >
         <ul className='p-auto m-auto'>

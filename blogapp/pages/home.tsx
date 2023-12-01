@@ -238,16 +238,16 @@ return (
     <div className="carousel-inner">
       <div className="carousel-item active">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/200" className="d-block w-100" alt="Slide 1" />
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/201" className="d-block w-100" alt="Slide 2" />
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/202" className="d-block w-100" alt="Slide 3" />
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/206" className="d-block w-100" alt="Slide 3" />
           </div>
 
@@ -256,16 +256,16 @@ return (
 
       <div className="carousel-item">
         <div className="row">
-        <div className="col-md-3">
+        <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/207" className="d-block w-100" alt="Slide 1" />
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/211" className="d-block w-100" alt="Slide 2" />
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/203" className="d-block w-100" alt="Slide 3" />
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-md-3">
             <img src="https://placekitten.com/300/204" className="d-block w-100" alt="Slide 3" />
           </div>
         </div>

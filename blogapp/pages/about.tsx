@@ -14,14 +14,14 @@ export default function About() {
             <div className="container-fluid">
                 
                 <div className="row d-flex align-items-center">
-                    <div className="col-6 col-xs-12">
+                    <div className="col-12 col-sm-6">
                         <figure>
                             <img src="https://unsplash.it/800" alt="" className="h-100" style={{ width: "600px"}}/>
                         </figure>
                     </div>
               
-                    <div className="col-6 col-xs-12">
-                        <article>
+                    <div className="col-12 col-sm-6">
+                        <article className="p-2">
                             <h2>Lorem ipsum dolor sit ametsdf.</h2>
                             <h1>Lorem ipsum dolor, sit sdfsdf.</h1>
                             <h5> Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. </h5>

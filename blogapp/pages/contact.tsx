@@ -59,7 +59,7 @@ export default function contact() {
                 </div>
 
                 <div className="col-xs-12 col-sm-6  col-md-6 col-lg-6">
-                    <div className="col-xs-12 col-sm-12 col-lg-9 p-3 ">
+                    <div className="col-xs-12 col-sm-12 col-lg-9">
                     <form action="" className="contactForm">
 
                     <div className="form-group">
