@@ -1,8 +1,9 @@
 // import './customCSS/custom.css'; 
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import '../custom.css';
-
+import '@fortawesome/fontawesome-free/css/all.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
@@ -27,9 +28,10 @@ export default function Header() {
   </div>
   
   <div className='nav-links'>
-    <a href='/'>Home</a>
-    <a href='/about'>About</a>
-    <a href='/contact'>Contact</a>
+
+    <Link href='/'>Home</Link>
+    <Link  href='/about'>About</Link>
+    <Link  href='/contact'>Contact</Link>
   </div>
   </div>
   </div>

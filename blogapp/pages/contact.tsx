@@ -30,7 +30,7 @@ export default function contact() {
 
             <div className='row'>
                 <div className='col-12'>
-                <h1 className='text-center p-1 '>Let's get connected</h1>
+                <h1 className='text-center p-1 '>Le get connected</h1>
               <br />
               <br></br>
                 </div>

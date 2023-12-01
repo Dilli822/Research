@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Home() {
 return (
 <>
@@ -21,9 +22,9 @@ return (
             </label>
          </div>
          <div className='nav-links'>
-            <a href='/'>Home</a>
-            <a href='/about'>About</a>
-            <a href='/contact'>Contact</a>
+            <Link href='/'>Home</Link>
+            <Link href='/about'>About</Link>
+            <Link href='/contact'>Contact</Link>
          </div>
       </div>
    </div>
@@ -38,7 +39,7 @@ return (
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, distinctio!</p>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                   <button className=' btn btn-outline-success'>
-                  <a href='#' className='text-black text-decoration-none'>Explore More</a>
+                  <Link  href='#' className='text-black text-decoration-none'>Explore More</Link >
                   </button>
                </article>
             </div>
@@ -67,14 +68,14 @@ return (
                         </div>
                      </div>
                   </div>
-                  <a className='carousel-control-prev' href='#myCarousel' role='button' data-slide='prev'>
+                  <Link  className='carousel-control-prev' href='#myCarousel' role='button' data-slide='prev'>
                   <span className='carousel-control-prev-icon' aria-hidden='true'></span>
                   <span className='sr-only'>Previous</span>
-                  </a>
-                  <a className='carousel-control-next' href='#myCarousel' role='button' data-slide='next'>
+                  </Link >
+                  <Link  className='carousel-control-next' href='#myCarousel' role='button' data-slide='next'>
                   <span className='carousel-control-next-icon' aria-hidden='true'></span>
                   <span className='sr-only'>Next</span>
-                  </a>
+                  </Link >
                </div>
             </div>
          </div>
@@ -123,7 +124,7 @@ return (
                <div className='card-body'>
                   <h5 className='card-title'>Card title</h5>
                   <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card content.</p>
-                  <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                  <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                </div>
             </div>
          </div>
@@ -133,7 +134,7 @@ return (
                <div className='card-body'>
                   <h5 className='card-title'>Card title</h5>
                   <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card content.</p>
-                  <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                  <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                </div>
             </div>
          </div>
@@ -143,7 +144,7 @@ return (
                <div className='card-body'>
                   <h5 className='card-title'>Card title</h5>
                   <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-                  <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                  <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                </div>
             </div>
          </div>
@@ -153,7 +154,7 @@ return (
                <div className='card-body'>
                   <h5 className='card-title'>Card title</h5>
                   <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-                  <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                  <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                </div>
             </div>
          </div>
@@ -173,7 +174,7 @@ return (
                   <div className='card-body'>
                      <h5 className='card-title'>Card title</h5>
                      <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the cars content.</p>
-                     <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                     <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                   </div>
                </div>
             </div>
@@ -183,7 +184,7 @@ return (
                   <div className='card-body'>
                      <h5 className='card-title'>Card title</h5>
                      <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the cars content.</p>
-                     <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                     <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                   </div>
                </div>
             </div>
@@ -193,7 +194,7 @@ return (
                   <div className='card-body'>
                      <h5 className='card-title'>Card title</h5>
                      <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card content.</p>
-                     <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                     <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                   </div>
                </div>
             </div>
@@ -203,7 +204,7 @@ return (
                   <div className='card-body'>
                      <h5 className='card-title'>Card title</h5>
                      <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card content.</p>
-                     <a href='#' className ='btn btn-outline-primary'>Go somewhere</a>
+                     <Link  href='#' className ='btn btn-outline-primary'>Go somewhere</Link >
                   </div>
                </div>
             </div>
@@ -214,7 +215,7 @@ return (
       </div>
       <br></br>
       <div className='text-center'>
-         <a href='#demo' className='btn btn-outline-info p-2' style={{ minWidth: '10rem'}} data-toggle='collapse'>Show/Hide</a>
+         <Link  href='#demo' className='btn btn-outline-info p-2' style={{ minWidth: '10rem'}} data-toggle='collapse'>Show/Hide</Link >
       </div>
    </article>
    <br></br>
@@ -256,14 +257,14 @@ return (
                </div>
             </div>
          </div>
-         <a className='carousel-control-prev' href='#multiColumnSlider' role='button' data-slide='prev'>
+         <Link  className='carousel-control-prev' href='#multiColumnSlider' role='button' data-slide='prev'>
          <span className='carousel-control-prev-icon' aria-hidden='true'></span>
          <span className='sr-only'>Previous</span>
-         </a>
-         <a className='carousel-control-next' href='#multiColumnSlider' role='button' data-slide='next'>
+         </Link >
+         <Link  className='carousel-control-next' href='#multiColumnSlider' role='button' data-slide='next'>
          <span className='carousel-control-next-icon' aria-hidden='true'></span>
          <span className='sr-only'>Next</span>
-         </a>
+         </Link >
       </div>
    </div>
 </div>
@@ -315,11 +316,11 @@ return (
                <nav >
                   <ul className='p-auto m-auto'>
                      <li>
-                        <a href='#'><i className='fab fa-facebook'></i></a>
+                        <Link  href='#'><i className='fab fa-facebook'></i></Link >
                         {/* Social Media Icons */}
                      </li>
-                     <li><a href='#'><i className='fab fa-instagram'> </i></a></li>
-                     <li><a href='#'><i className='fab fa-youtube'>  </i></a></li>
+                     <li><Link  href='#'><i className='fab fa-instagram'> </i></Link ></li>
+                     <li><Link  href='#'><i className='fab fa-youtube'>  </i></Link ></li>
                   </ul>
                </nav>
             </div>

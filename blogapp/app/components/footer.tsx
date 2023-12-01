@@ -1,6 +1,6 @@
 import Image from 'next/image';
-
-import { faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 export default function Footer() {
     return (
@@ -25,12 +25,12 @@ export default function Footer() {
       <nav >
         <ul className='p-auto m-auto'>
           <li>
-            <a href='#'><i className='fab fa-facebook'></i></a>
+            <Link  href='#'><i className='fab fa-facebook'></i></Link >
                     {/* Social Media Icons */}
        
           </li>
-          <li><a href='#'><i className='fab fa-instagram'> </i></a></li>
-          <li><a href='#'><i className='fab fa-youtube'>  </i></a></li>
+          <li><Link href='#'><i className='fab fa-instagram'> </i></Link> </li>
+          <li><Link href='#'><i className='fab fa-youtube'>  </i></Link></li>
         </ul>
       </nav>
       </div>
