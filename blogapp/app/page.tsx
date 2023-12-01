@@ -11,7 +11,7 @@ export default function Home() {
   <div className="nav-header">
     <div className="nav-title">
       <figure>
-        <img src="https://unsplash.it/500" alt="logo" style={{ width: "50px", height: "50px "}}/>
+        <Image src="https://unsplash.it/500" alt="logo" width={50} height={50} />
       </figure>
     </div>
   </div>
@@ -58,21 +58,21 @@ export default function Home() {
   <div id="myCarousel" className="mt-2 carousel slide" data-ride="carousel">
 <div className="carousel-inner">
 <div className="carousel-item active">
-  <img src="https://unsplash.it/900" className="d-block w-100" alt="Slide 1" />
+  <Image src="https://unsplash.it/900" className="d-block w-100" alt="Slide 1" width={500} height={500}/>
   <div className="carousel-caption d-none d-md-block">
     <h5>Third slide label 1</h5>
     <p>Some representative placeholder content for the third slide.</p>
   </div>
 </div>
 <div className="carousel-item">
-  <img src="https://unsplash.it/1200" className="d-block w-100" alt="Slide 2" />
+  <Image src="https://unsplash.it/1200" className="d-block w-100" alt="Slide 2" width={500} height={500}/>
   <div className="carousel-caption d-none d-md-block">
     <h5>Third slide label 2</h5>
     <p>Some representative placeholder content for the third slide.</p>
   </div>
 </div>
 <div className="carousel-item">
-  <img src="https://unsplash.it/1500" className="d-block w-100" alt="Slide 3" />
+  <Image src="https://unsplash.it/1500" className="d-block w-100" alt="Slide 3" width={500} height={500} />
   <div className="carousel-caption d-none d-md-block">
     <h5>Third slide label</h5>
     <p>Some representative placeholder content for the third slide.</p>
@@ -118,7 +118,7 @@ export default function Home() {
      <div className="col-xs-12 col-md-6 col-lg-6">
         <div className="text-right col-12 h-100">
            <figure>
-              <img src="https://unsplash.it/1900" alt="" className='blogimg rounded w-100 h-100 '  />
+              <Image src="https://unsplash.it/1900" alt="" className='blogImage rounded w-100 h-100 '  width={500} height={500}  />
            </figure>
         </div>
      </div>
@@ -141,7 +141,7 @@ export default function Home() {
    
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1700" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1700" alt="Card Image cap" width={500} height={500}/>
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -151,7 +151,7 @@ export default function Home() {
      </div>
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1701" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1701" alt="Card Image cap"  width={500} height={500} />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -161,7 +161,7 @@ export default function Home() {
      </div>
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1702" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1702" alt="Card Image cap"  width={500} height={500} />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -171,7 +171,7 @@ export default function Home() {
      </div>
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1705" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1705" alt="Card Image cap"  width={500} height={500} />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -199,7 +199,7 @@ export default function Home() {
   <div className="row " >
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1700" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1700" alt="Card Image cap"  width={500} height={500} />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -209,7 +209,7 @@ export default function Home() {
      </div>
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1701" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1701" alt="Card Image cap"  width={500} height={500} />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -219,7 +219,7 @@ export default function Home() {
      </div>
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1702" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1702" alt="Card Image cap"  width={500} height={500}  />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -229,7 +229,7 @@ export default function Home() {
      </div>
      <div className="col-sm-6 col-xs-12 col-lg-3">
         <div className="card" >
-           <img className="card-img-top" src="https://unsplash.it/1705" alt="Card img cap"/>
+           <Image className="card-Image-top" src="https://unsplash.it/1705" alt="Card Image cap" width={500} height={500}  />
            <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -265,16 +265,16 @@ export default function Home() {
   <div className="carousel-item active">
     <div className="row">
       <div className="col-3  col-sm-3 col-md-3">
-        <img src="https://placekitten.com/300/200" className="d-block w-100" alt="Slide 1" />
+        <Image src="https://placekitten.com/300/200" className="d-block w-100" alt="Slide 1" width={300} height={300}/>
       </div>
       <div className=" col-3  col-sm-3  col-md-3">
-        <img src="https://placekitten.com/300/201" className="d-block w-100" alt="Slide 2" />
+        <Image src="https://placekitten.com/300/201" className="d-block w-100" alt="Slide 2" width={300} height={300}/>
       </div>
       <div className=" col-3  col-sm-3  col-md-3">
-        <img src="https://placekitten.com/300/202" className="d-block w-100" alt="Slide 3" />
+        <Image src="https://placekitten.com/300/202" className="d-block w-100" alt="Slide 3" width={300} height={300}/>
       </div>
       <div className=" col-3  col-sm-3  col-md-3">
-        <img src="https://placekitten.com/300/206" className="d-block w-100" alt="Slide 3" />
+        <Image src="https://placekitten.com/300/206" className="d-block w-100" alt="Slide 3" width={300} height={300}/>
       </div>
 
     </div>
@@ -283,16 +283,16 @@ export default function Home() {
   <div className="carousel-item">
     <div className="row">
     <div className="col-3  col-sm-3 col-md-3">
-        <img src="https://placekitten.com/300/207" className="d-block w-100" alt="Slide 1" />
+        <Image src="https://placekitten.com/300/207" className="d-block w-100" alt="Slide 1" width={300} height={300}/>
       </div>
       <div className=" col-3  col-sm-3 col-md-3">
-        <img src="https://placekitten.com/300/211" className="d-block w-100" alt="Slide 2" />
+        <Image src="https://placekitten.com/300/211" className="d-block w-100" alt="Slide 2" width={300} height={300}/>
       </div>
       <div className="col-3  col-sm-3 col-md-3">
-        <img src="https://placekitten.com/300/203" className="d-block w-100" alt="Slide 3" />
+        <Image src="https://placekitten.com/300/203" className="d-block w-100" alt="Slide 3" width={300} height={300}/>
       </div>
       <div className="col-3 col-sm-3 col-md-3">
-        <img src="https://placekitten.com/300/204" className="d-block w-100" alt="Slide 3" />
+        <Image src="https://placekitten.com/300/204" className="d-block w-100" alt="Slide 3" width={300} height={300}/>
       </div>
     </div>
   </div>
@@ -327,7 +327,7 @@ export default function Home() {
      <div className="col-xs-12 col-md-6 col-lg-6">
         <div className=" col-12 w-100 h-100">
            <figure>
-              <img src="https://unsplash.it/900" alt="" className='blogimg h-100 rounded' style={{ width: "100%", maxWidth: "100%"}} />
+              <Image src="https://unsplash.it/900" alt="" className='blogImage h-100 rounded' style={{ width: "100%", maxWidth: "100%"}} width={500} height={500}/>
            </figure>
         </div>
      </div>
@@ -360,7 +360,7 @@ export default function Home() {
     <div className="col-6">
       <div className="d-flex align-items-center">
       <figure>
-        <img src="https://unsplash.it/100" alt="logo" className='w-50 h-50'/>
+        <Image src="https://unsplash.it/100" alt="logo" className='w-50 h-50' width={50} height={50}/>
       </figure>
       <span>
       © 2021 Company, Inc
