@@ -18,7 +18,6 @@ return (
                      <button className=' btn btn-outline-success'>
                      <a href='#' className='text-black text-decoration-none'>Explore More</a>
                      </button>
-                  
                   </article>
                   <br></br>
                </div>
@@ -206,44 +205,50 @@ return (
                <div className='carousel-item active'>
                   <div className='row'>
                      <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className=' w-100 h-100'>
-                        <img src='https://placekitten.com/1000' className='d-block w-100 h-100' alt='Slide 1' />
-                     </div>
+                        <div className=' w-100 h-100'>
+                           <img src='https://unsplash.it/808' className='d-block w-100 h-100' alt='Slide 1' />
+                        </div>
                      </div>
                      <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className=' w-100 h-100'>
-                        <img src='https://unsplash.it/678' className='d-block w-100 h-100' alt='Slide 2' />
-                     </div>  </div>
+                        <div className=' w-100 h-100'>
+                           <img src='https://unsplash.it/678' className='d-block w-100 h-100' alt='Slide 2' />
+                        </div>
+                     </div>
                      <br></br>
                      <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className='  w-100 h-100'>
-                        <img src='https://placekitten.com/100' className='d-block w-100 h-100'  alt='Slide 3' />
-                     </div>  </div>
+                        <div className='  w-100 h-100'>
+                           <img src='https://unsplash.it/778' className='d-block w-100 h-100'  alt='Slide 3' />
+                        </div>
+                     </div>
                      <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className=' w-100 h-100'>
-                        <img src='https://placekitten.com/906' className='d-block w-100 h-100' alt='Slide 3'  />
-                     </div>  </div>
+                        <div className=' w-100 h-100'>
+                           <img src='https://unsplash.it/450' className='d-block w-100 h-100' alt='Slide 3'  />
+                        </div>
+                     </div>
                   </div>
                </div>
                <div className='carousel-item'>
                   <div className='row'>
                      <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className='w-100  h-100'>
-                        <img src='https://placekitten.com/300/' className='d-block w-100 h-100' alt='Slide 1' />
-                     </div> </div>
-                     <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className=' w-100 h-100'>
-                        <img src='https://placekitten.com/345' className='d-block  w-100 h-100' alt='Slide 2' />
-                     </div> </div>
-                     <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className=' w-100 h-100'>
-                        <img src='https://placekitten.com/860' className='d-block w-100 h-100' alt='Slide 3' />
-                        <br></br>
-                     </div> </div>
-                     <div className='col-6 col-md-3 p-1 h-100'>
-                     <div className='  w-100 h-100'>
-                        <img src='https://placekitten.com/804' className='d-block w-100 h-100' alt='Slide 3' />
+                        <div className='w-100  h-100'>
+                           <img src='https://unsplash.it/555' className='d-block w-100 h-100' alt='Slide 1' />
+                        </div>
                      </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                        <div className=' w-100 h-100'>
+                           <img src='https://unsplash.it/900' className='d-block  w-100 h-100' alt='Slide 2' />
+                        </div>
+                     </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                        <div className=' w-100 h-100'>
+                           <img src='https://unsplash.it/245' className='d-block w-100 h-100' alt='Slide 3' />
+                           <br></br>
+                        </div>
+                     </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                        <div className='  w-100 h-100'>
+                           <img src='https://unsplash.it/1100' className='d-block w-100 h-100' alt='Slide 3' />
+                        </div>
                      </div>
                   </div>
                </div>

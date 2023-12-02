@@ -83,33 +83,25 @@ return (
          <br></br>
          <div className='row'>
             <div className='col-3'>
-              
-                  <div className='card' >
-                     <img className='card-img-top h-100' src='https://unsplash.it/1300' alt='Card image cap' style={{ maxWidth: '100%' }}/>
-                 
+               <div className='card' >
+                  <img className='card-img-top h-100' src='https://unsplash.it/1300' alt='Card image cap' style={{ maxWidth: '100%' }}/>
                </div>
             </div>
             <div className='col-3'>
-              
-                  <div className='card' >
-                     <img className='card-img-top h-100' src='https://unsplash.it/1200' alt='Card image cap' style={{ maxWidth: '100%' }}/>
-                  </div>
-             
-            </div>
-            <div className='col-3'>
-              
-                  <div className='card' >
-                     <img className='card-img-top h-100' src='https://unsplash.it/900' alt='Card image cap' style={{ maxWidth: '100%' }}/>
-                  </div>
-               
-            </div>
-            <div className='col-3'>
-             
-                  <div className='card' >
-                     <img className='card-img-top' src='https://unsplash.it/1200' alt='Card image cap h-100'  style={{ maxWidth: '100%' }}/>
-                  </div>
+               <div className='card' >
+                  <img className='card-img-top h-100' src='https://unsplash.it/1200' alt='Card image cap' style={{ maxWidth: '100%' }}/>
                </div>
-          
+            </div>
+            <div className='col-3'>
+               <div className='card' >
+                  <img className='card-img-top h-100' src='https://unsplash.it/900' alt='Card image cap' style={{ maxWidth: '100%' }}/>
+               </div>
+            </div>
+            <div className='col-3'>
+               <div className='card' >
+                  <img className='card-img-top' src='https://unsplash.it/1200' alt='Card image cap h-100'  style={{ maxWidth: '100%' }}/>
+               </div>
+            </div>
          </div>
       </div>
       <br></br>
@@ -121,25 +113,21 @@ return (
                <figure>
                   <img src='https://unsplash.it/1700' alt='' />
                </figure>
-              
             </div>
          </div>
          <div className='col-12 col-sm-6'>
-           
-               <article>
-                  <h1>
-                     Our story
-                  </h1>
-                  <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
-             
-               </article>
-               <hr></hr>
+            <article>
+               <h1>
+                  Our story
+               </h1>
+               <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
+            </article>
+            <hr>
+            </hr>
          </div>
-
-    <div className="d-flex  align-items-center flex-wrap-reverse"> 
-         <div className='col-12 col-sm-6'>
-        
+         <div className="d-flex  align-items-center flex-wrap-reverse">
+            <div className='col-12 col-sm-6'>
                <article>
                   <h1>
                      Our Philosophy
@@ -147,16 +135,14 @@ return (
                   <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
                </article>
-               <hr></hr>
-         </div>
-        
-         <div className='col-12 col-sm-6'>
-            
+               <hr>
+               </hr>
+            </div>
+            <div className='col-12 col-sm-6'>
                <figure>
                   <img src='https://unsplash.it/700' alt='' />
                </figure>
-          
-         </div>
+            </div>
          </div>
       </div>
    </div>
