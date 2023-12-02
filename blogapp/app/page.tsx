@@ -18,7 +18,9 @@ return (
                      <button className=' btn btn-outline-success'>
                      <a href='#' className='text-black text-decoration-none'>Explore More</a>
                      </button>
+                  
                   </article>
+                  <br></br>
                </div>
                <div className='col-12 col-sm-4'>
                   <div id='myCarousel' className='mt-2 carousel slide' data-ride='carousel'>
@@ -63,7 +65,7 @@ return (
    <div className='container-fluid'>
       <div className='row '>
          <div className='col-12 col-sm-6'>
-            <div className='col-12 w-100 h-100'>
+            <div className=' w-100 h-100'>
                <article className='article w-100'>
                   <h3 >sdsfsdfsdfsdfsdfsdfsd</h3>
                   <h1>Lorem ipsum dolor sit amet.</h1>
@@ -78,7 +80,7 @@ return (
             </div>
          </div>
          <div className='col-12 col-sm-6'>
-            <div className='text-right col-12 w-100 h-100'>
+            <div className='text-right  w-100 h-100'>
                <figure>
                   <img src='https://unsplash.it/1900' alt='' className='blogImg h-100 rounded'  />
                </figure>
@@ -203,35 +205,45 @@ return (
             <div className='carousel-inner'>
                <div className='carousel-item active'>
                   <div className='row'>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/500/400' className='d-block w-500 h-100' alt='Slide 1' />
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className=' w-100 h-100'>
+                        <img src='https://placekitten.com/1000' className='d-block w-100 h-100' alt='Slide 1' />
                      </div>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/900/501' className='d-block w-500 h-100 ' alt='Slide 2' />
                      </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className=' w-100 h-100'>
+                        <img src='https://unsplash.it/678' className='d-block w-100 h-100' alt='Slide 2' />
+                     </div>  </div>
                      <br></br>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/300/202' className='d-block w-500 h-100' alt='Slide 3' />
-                     </div>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/1200/906' className='d-block w-500 h-100' alt='Slide 3' />
-                     </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className='  w-100 h-100'>
+                        <img src='https://placekitten.com/100' className='d-block w-100 h-100'  alt='Slide 3' />
+                     </div>  </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className=' w-100 h-100'>
+                        <img src='https://placekitten.com/906' className='d-block w-100 h-100' alt='Slide 3'  />
+                     </div>  </div>
                   </div>
                </div>
                <div className='carousel-item'>
                   <div className='row'>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/300/207' className='d-block w-500 h-100' alt='Slide 1' />
-                     </div>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/300/211' className='d-block w-500 h-100' alt='Slide 2' />
-                     </div>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/300/203' className='d-block w-500 h-100' alt='Slide 3' />
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className='w-100  h-100'>
+                        <img src='https://placekitten.com/300/' className='d-block w-100 h-100' alt='Slide 1' />
+                     </div> </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className=' w-100 h-100'>
+                        <img src='https://placekitten.com/345' className='d-block  w-100 h-100' alt='Slide 2' />
+                     </div> </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className=' w-100 h-100'>
+                        <img src='https://placekitten.com/860' className='d-block w-100 h-100' alt='Slide 3' />
                         <br></br>
+                     </div> </div>
+                     <div className='col-6 col-md-3 p-1 h-100'>
+                     <div className='  w-100 h-100'>
+                        <img src='https://placekitten.com/804' className='d-block w-100 h-100' alt='Slide 3' />
                      </div>
-                     <div className='col-6 col-md-3 p-1'>
-                        <img src='https://placekitten.com/200/104' className='d-block w-500 h-100' alt='Slide 3' />
                      </div>
                   </div>
                </div>
@@ -254,14 +266,14 @@ return (
    <div className='container-fluid'>
       <div className='row d-flex align-items-center'>
          <div className='col-xs-12 col-md-6 col-lg-6'>
-            <div className=' col-12 w-100 h-100'>
+            <div className='  w-100 h-100'>
                <figure>
                   <img src='https://unsplash.it/900' alt='' className='blogImg h-100 rounded' style={{ width: '100%', maxWidth: '100%'}} />
                </figure>
             </div>
          </div>
          <div className='col-xs-12 col-md-6 col-lg-6'>
-            <div className='col-12 w-100 h-100'>
+            <div className='w-100 h-100'>
                <article className='article w-100'>
                   <h3>sdsfsdfsdfsdfsdfsdfsd</h3>
                   <h1>Lorem ipsum dolor sit amet.</h1>
@@ -273,6 +285,7 @@ return (
                   Read More Blogs
                   </button>
                </article>
+               <br></br>
             </div>
          </div>
       </div>

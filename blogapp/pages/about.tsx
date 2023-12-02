@@ -9,7 +9,7 @@ return (
       <div className='row d-flex align-items-center'>
          <div className='col-12 col-sm-6'>
             <figure>
-               <img src='https://unsplash.it/800' alt='' className='h-100' style={{ width: '600px'}}/>
+               <img src='https://unsplash.it/500' alt='' className='w-100 h-100'/>
             </figure>
          </div>
          <div className='col-12 col-sm-6'>
@@ -83,48 +83,48 @@ return (
          <br></br>
          <div className='row'>
             <div className='col-3'>
-               <div className='col-12'>
+              
                   <div className='card' >
-                     <img className='card-img-top h-100' src='https://unsplash.it/1300' alt='Card image cap' style={{ width: '500px' }}/>
-                  </div>
+                     <img className='card-img-top h-100' src='https://unsplash.it/1300' alt='Card image cap' style={{ maxWidth: '100%' }}/>
+                 
                </div>
             </div>
             <div className='col-3'>
-               <div className='col-12'>
+              
                   <div className='card' >
-                     <img className='card-img-top h-100' src='https://unsplash.it/1200' alt='Card image cap' style={{ width: '500px' }}/>
+                     <img className='card-img-top h-100' src='https://unsplash.it/1200' alt='Card image cap' style={{ maxWidth: '100%' }}/>
                   </div>
-               </div>
+             
             </div>
             <div className='col-3'>
-               <div className='col-12'>
+              
                   <div className='card' >
-                     <img className='card-img-top h-100' src='https://unsplash.it/900' alt='Card image cap' style={{ width: '500px' }}/>
+                     <img className='card-img-top h-100' src='https://unsplash.it/900' alt='Card image cap' style={{ maxWidth: '100%' }}/>
                   </div>
-               </div>
+               
             </div>
             <div className='col-3'>
-               <div className='col-12'>
+             
                   <div className='card' >
-                     <img className='card-img-top' src='https://unsplash.it/300' alt='Card image cap' />
+                     <img className='card-img-top' src='https://unsplash.it/1200' alt='Card image cap h-100'  style={{ maxWidth: '100%' }}/>
                   </div>
                </div>
-            </div>
+          
          </div>
       </div>
       <br></br>
       <hr>
       </hr>
       <div className='row d-flex align-items-center'>
-         <div className='col-xs-12 col-sm-6'>
-            <div className='col-12 h-100'>
+         <div className='col-12 col-sm-6'>
+            <div className=' h-100'>
                <figure>
-                  <img src='https://unsplash.it/700' alt='' />
+                  <img src='https://unsplash.it/1700' alt='' />
                </figure>
             </div>
          </div>
-         <div className='col-xs-12 col-sm-6'>
-            <div className='col-12 h-100'>
+         <div className='col-12 col-sm-6'>
+           
                <article>
                   <h1>
                      Our story
@@ -132,10 +132,10 @@ return (
                   <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
                </article>
-            </div>
+          
          </div>
-         <div className='col-xs-12 col-sm-6'>
-            <div className='col-12 h-100'>
+         <div className='col-12 col-sm-6'>
+        
                <article>
                   <h1>
                      Our Philosophy
@@ -143,14 +143,14 @@ return (
                   <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
                </article>
-            </div>
+           
          </div>
-         <div className='col-xs-12 col-sm-6'>
-            <div className='col-12 h-100'>
+         <div className='col-12 col-sm-6'>
+            
                <figure>
                   <img src='https://unsplash.it/700' alt='' />
                </figure>
-            </div>
+          
          </div>
       </div>
    </div>

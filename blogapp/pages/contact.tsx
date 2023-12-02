@@ -42,7 +42,7 @@ return (
             </p>
          </div>
          <div className='col-xs-12 col-sm-6  col-md-6 col-lg-6'>
-            <div className='col-xs-12 col-sm-12 col-lg-9 p-3 '>
+            <div className='col-xs-12 col-sm-12 col-lg-9 p-1 '>
                <form action='' className='contactForm'>
                   <div className='form-group'>
                      <label htmlFor='exampleInputFirstName'>First Name</label>
