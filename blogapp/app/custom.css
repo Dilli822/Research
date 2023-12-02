@@ -163,14 +163,16 @@ This is where the actual toggle visibility happens.
     h5, h6, p{
       font-size: initial  !important;
     }
-      
 
     
   }
 
 
   @media (max-width:767px) {
-  
+    h1{
+      font-size: initial!important;
+    }
+      
     .blogImg{
       width: 100%;
     }

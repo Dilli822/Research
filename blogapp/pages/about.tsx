@@ -1,7 +1,7 @@
 
 import Header from '../app/components/header';
 import Footer from '../app/components/footer';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function About() {
     return (
@@ -32,7 +32,7 @@ export default function About() {
     
                 <hr></hr>
 
-                <div className='crow'>
+                <div className='row'>
                     <div className='col-12' >
                         <article className='text-center'>
                             <h1> Trusted Website Builder </h1>          <br></br>

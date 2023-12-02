@@ -1,8 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import '@fortawesome/fontawesome-free/css/all.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
     return (
 <footer className='mt-3'>
 <div className='container-fluid'>
@@ -13,7 +16,7 @@ export default function Footer() {
         <Image src='https://unsplash.it/100' alt='logo' className='w-50 h-50' width={50} height={50} />
       </figure>
       <span>
-      © 2021 Company, Inc
+      ©  {currentYear}  Company, Inc
       </span>
    
     </div>
