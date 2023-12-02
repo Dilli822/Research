@@ -100,9 +100,12 @@ export default function About() {
                 <hr></hr>
                 <br></br>
                 <div className='row'>
+                    <div className="col-12">
                     <h1 className='text-center'>
-                        Featured in
+                        Top Featured in
                     </h1>
+                    </div>
+                
                  
                     </div>
 
