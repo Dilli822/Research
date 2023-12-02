@@ -121,6 +121,7 @@ return (
                <figure>
                   <img src='https://unsplash.it/1700' alt='' />
                </figure>
+              
             </div>
          </div>
          <div className='col-12 col-sm-6'>
@@ -131,9 +132,12 @@ return (
                   </h1>
                   <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
+             
                </article>
-          
+               <hr></hr>
          </div>
+
+    <div className="d-flex  align-items-center flex-wrap-reverse"> 
          <div className='col-12 col-sm-6'>
         
                <article>
@@ -143,14 +147,16 @@ return (
                   <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur.</p>
                </article>
-           
+               <hr></hr>
          </div>
+        
          <div className='col-12 col-sm-6'>
             
                <figure>
                   <img src='https://unsplash.it/700' alt='' />
                </figure>
           
+         </div>
          </div>
       </div>
    </div>
