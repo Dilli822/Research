@@ -1,0 +1,795 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{geometry}
+
+% Set margins
+\geometry{margin=1in}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{Artificial Intelligence Through Time: A 
+Comprehensive Historical Review}
+\author{
+    Dilli Hang Rai \\
+    \texttt{dillihangrai.078@godawari.edu.np} \\
+    \texttt{dillihangrae@gmail.com} \\
+    Bachelor of Science in Computer Science and Information Technology \\
+    Tribhuvan University, Institute of Science and Technology \\
+    ORCID: \texttt{0009-0007-2200-4351}
+}
+
+\date{\today}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+{
+
+The world is experiencing a revolutionary transformation in artificial intelligence and technology, largely due to the rise of LLMs (Large Language Models), a deep neural network trained on vast datasets with billions of parameters, enabling them to generate and understand human language. Rolling back and understanding the history of AI is essential for gaining theoretical knowledge and insights into its development. This review paper offers a detailed, straightforward, and comprehensive overview of the timeline of AI history, highlighting significant milestones from Aristotle to the present. It aims to compile and summarize essential information about artificial intelligence (AI) by citing relevant sources and presenting a clear timeline, along with a brief analysis of significant resources that contribute to an understanding of the evolution of AI.
+This review traces the evolution of artificial intelligence from its philosophical roots through key milestones like the Dartmouth Conference, early successes, Expert Systems, AI winters, robotics, game-playing, NLP, Computer Vision, Self-Driving Cars and recent breakthroughs in machine learning and deep learning, highlighting the field's cyclical nature of enthusiasm and setbacks, its ongoing pursuit of human-level intelligence amid technological advancements, and ethical considerations. Designed for readers with varying levels of familiarity with AI, it offers a comprehensive understanding of its development in one accessible location. Furthermore, the paper aims to help readers compare modern and classical AI, enabling them to make informed predictions about future developments.
+
+
+}
+\subsection*{Keywords:} Artificial Intelligence (AI),
+Alan Turing,
+Neural Networks,
+Claude Shannon,
+AI Winters,
+AI Milestones,
+John McCarthy,
+Symbolic Systems,
+Propositional Logic,
+Herbert Simon,
+Robotics and AI,
+Game Development,
+Natural Language Processing (NLP),
+AI Winters,
+AGI (Artificial General Intelligence),
+Game Development in AI
+
+\section{Introduction}
+
+Today's advancements in artificial intelligence will define the history of tomorrow. The effort to create true intelligent machines has significantly shaped the field of Artificial Intelligence (AI) and laid the groundwork for its development over the years. The history of AI has evolved from early philosophical ideas to today’s advanced computational systems. AI has been developing since the 1940s, experiencing various ups and downs, including periods known as "AI Winters." The journey of AI, from explicit programming to learning algorithms (black-box: neural networks), is marked by both excitement and rigorous effort. Now, it has grown into a thriving billion-dollar industry.
+
+This review paper looks at the historical progress of AI and traces its roots from early theories to key figures who have contributed to the field, important innovations, and foundational concepts like symbolic logic. It also examines the rise of neural networks and machine learning. It explores how overestimated symbolic systems, expert systems, and rule-based approaches could not help to achieve the promised intelligence, leading to the rise of connectionist models (neural networks). Understanding this history provides valuable insights into the impact of AI and sheds light on both the challenges and opportunities.
+
+\section{Ancient Historical \& Philosophical Context}
+
+The origins of AI trace back to Aristotle (384-322 B.C.), who introduced deductive reasoning through syllogisms. Ramon Llull (ca. 1235-1316) contributed with his Ars Magna, a conceptual machine designed to answer all questions. Earlier thinkers such as Aristotle, Leibniz, Babbage, and Hollerith laid the groundwork for AI, influencing its theoretical and practical developments.
+
+For Aristotle, change was a fascinating aspect of nature. In "Physics," he described his "philosophy of nature" as the study of things that transform, distinguishing between matter and form. For instance, a sculpture is made of bronze (matter) and shaped into a human figure (form). 
+
+This matter/form distinction underpins modern ideas like symbolic computing and data abstraction. In computing, we manipulate patterns that represent the forms of electromagnetic material, with changes in these forms reflecting the solution process. By abstracting the form from its medium, we enhance the manipulation of data structures, which is central to computer science and the development of artificial intelligence.
+
+In his *Metaphysics*, Aristotle begins with “All men by nature desire to know” and develops a science of unchanging things, including cosmology and theology. More pertinent to artificial intelligence is his epistemology in *Logic*, where he analyzes how humans understand their world. He termed logic the “instrument” (organon), believing it underpins all knowledge.
+
+In *Logic*, Aristotle examined whether certain propositions can be deemed “true” based on other known truths. For example, if “all men are mortal” and “Socrates is a man,” we can conclude “Socrates is mortal.” This reasoning illustrates his concept of syllogism, specifically modus ponens.
+
+
+\section{Before 1940s}
+The Pascaline, created by French philosopher and mathematician Blaise Pascal in 1642, is another notable calculating machine. Although Schickard and Pascal's devices could only perform addition and subtraction, they proved that processes once believed to need human skill could be automated.
+
+George Boole (Boole, 1854) pioneered propositional logic, significantly advancing our understanding of human cognition and laying the groundwork for modern logic.
+In the late 19th century, Gottlieb Frege developed a notational system for mechanical reasoning, which he called Begriffsschrift, meaning "concept writing," leading to the creation of predicate calculus [Frege 1879].
+Pascal’s work on calculating machines inspired Leibniz to develop the Leibniz Wheel in 1694, a machine capable of multiplication and division using a hand crank and moveable carriage. Fascinated by automated logic, Leibniz proposed a machine that could calculate logical conclusions based on the necessary and sufficient features of concepts. In 1887, he envisioned a device for automated deductive reasoning and scientific knowledge production, foreshadowing modern ideas of inference and proof automation. 
+
+
+\section{Incubation Period (1940 - 1950)}
+This era can be called an incubation period of AI, as suggested by Russell in his book, where the AI field itself emerged with digital computers, and computers became commercially available.
+The Turing Test, proposed by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior indistinguishable from
+ that of a human. A human evaluator communicates with both a human and a machine via text-only interface, and if the evaluator cannot reliably distinguish between the two, the machine is said to have passed the test.
+ 
+\subsection{Influence of Cybernetics and Cognitive Psychology(1940s)}
+\begin{itemize}
+    \item \textbf{Prototypes of Digital Computers:} Early computer systems, such as the Mark I relay computer and the ENIAC, were developed.
+    \item \textbf{Cybernetics Emerges:} Norbert Wiener coined the term ``cybernetics,'' studying communication between humans and machines, integrating information theory, feedback control systems, and electronic computing and cognitive psychology as a field. This era addressed tasks like symbolic integration and mobile robot control, but many systems could only solve simple ``toy problems.''
+\end{itemize}
+
+\subsection{Perceptron Learning: McCulloch \& Pitts (1943)}
+\begin{itemize}
+    \item Theorized connections between computing elements and biological neurons.
+    \item Demonstrated that networks of logical gates could represent any computable function.
+\end{itemize}
+
+\subsection{Commerical Reality (1944)}
+The Mark I Harvard relay computer, a prototype system, demonstrated the commercial viability of electronic stored-program digital computers.
+
+\subsection{Vannevar Bush's Vision(1945)}
+Vannevar Bush published "As We May Think," envisioning a future where computers assist humans in various tasks. It offers a visionary perspective on the potential of technology to augment human thought and memory.
+
+\subsection{ENIAC (1947)}
+The ENIAC, a more advanced electronic computer developed at the University of
+Pennsylvania further pushed the boundaries of computer technology and marked a
+a significant step forward in the evolution of digital computing.
+
+\subsection{
+Intelligent Machinery (1948)}
+Alan Turing, one of the key figures in early AI, wrote "Intelligent Machinery", where he explored ideas about machine learning and the potential of machines to simulate human intelligence.
+
+\subsection{Learning Networks (1949)}
+McCulloch and Pitts suggested that networks could learn. Donald Hebb introduced Hebbian learning in 1949, a fundamental rule for modifying neuron connection strengths, which remains influential today.
+
+\subsection{Alan Turing's Contributions (1947 \& 1950)}
+Gave lectures as early as 1947 and wrote “Computing Machinery and Intelligence” in 1950. Introduced the Turing Test, machine learning, genetic algorithms, and reinforcement learning. Proposed the "Child Programme" concept for simulating child-like learning. The first significant exploration of mechanizing human intelligence came from Alan Turing.
+
+\subsection{Claude Shannon's Work (1950)}
+Programming a Computer for Playing Chess. Developed programs for simple reasoning tasks, advancing the exploration of mechanizing human intelligence.
+
+\subsection{First Neural Network Computer (1950-1951)}
+Marvin Minsky and Dean Edmonds built the SNARC at Harvard, using 3,000 vacuum tubes to simulate a network of 40 neurons. Later, Minsky studied universal computation in neural networks at Princeton.
+
+\subsection{Advancements in Formal Grammar (1950)}
+In the 1950s, Noam Chomsky’s Generative Grammar and developments in formal grammar from logic provides new insights into linguistics and language theory.
+
+% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+\section{Birth of AI (1950 - 1960)}
+The 1950s were pivotal in the establishment of AI, with researchers such as Claude Shannon at MIT and Allen Newell at the RAND Corporation creating chess-playing and simulation programs. Their pioneering efforts set the stage for future advancements in AI. In the late 1950s, the focus shifted to significant developments in pattern recognition and self-adapting systems. 
+
+\subsection{Alan Turing's "Imitation Game" and Turing Test(1950)}
+Alan Turing's "Computing Machinery and Intelligence": In 1950, Alan Turing published his seminal paper where he proposed the Turing Test (originally called the "Imitation Game"). This paper raised fundamental questions about whether machines could think and introduced the idea of measuring machine intelligence by comparing a machine's ability to imitate human responses in a conversation. This concept remains one of the foundational ideas in AI.
+
+\subsection{Emerging AI Programs(1951)}
+The first working AI programs were developed for the Ferranti Mark 1 computer at the University of Manchester. Christopher Strachey created a checkers-playing program, while Dietrich Prinz developed a chess-playing program
+
+\subsection{Game Development(1952)}
+\textbf{Arthur Samuel's Checkers Program:} Samuel begins developing programs for the Checkers game that can learn to play at a strong amateur level, demonstrating that computers can learn beyond explicit instructions. \\
+\textbf{Claude Shannon's Chess Programs:} Shannon begins developing chess-playing programs at MIT, contributing to early AI research in game-playing algorithms. 
+
+\subsection{Georgetown-IBM Experiment(1953))}
+Georgetown-IBM Experiment was the first successful machine translation of 250 sentences from English to Russian using the IBM 701 mainframe, generating significant public interest and funding for future research.
+
+\subsection{FORTRAN Development Begins(1954)}
+\textbf{} The development of FORTRAN, one of the first high-level programming languages, starts, facilitating future AI programming.
+
+\subsection{ Proposal for the Dartmouth workshop (1955)}
+\textbf{} In 1955, John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon proposed a summer workshop at Dartmouth College in 1956, which is now considered the founding event of AI as a field.
+
+\subsection{Noam Chomsky's Generative Grammar(1955-1957)}
+\textbf Chomsky’s work on generative grammar greatly influences computational linguistics and natural language processing. He published the book “Syntactic Structures” in 1957.
+
+\subsection{IPL(1956 - 1957)}
+Newell, Shaw, and Simon completed the Logic Theorist, one of the earliest programs for automatic theorem proving. This development also saw the creation of IPL (Information Processing Language), the first list-processing language.
+
+
+\subsection{Birthplace of AI (1956)}
+McCarthy enlisted Minsky, Claude Shannon, and Nathaniel Rochester to gather U.S. researchers focused on automata theory, neural networks, and intelligence studies. 
+
+\textbf{February (1956):} 
+Television Demonstration: Samuel's Checker's program is showcased on television, impressing audiences with its learning capabilities. 
+\textbf{Summer (1956):} 
+\begin{itemize}
+    \item \textbf{Dartmouth Workshop:} John McCarthy organizes a workshop at Dartmouth, gathering key figures like Minsky, Claude Shannon, and Nathaniel Rochester to discuss automata theory, neural networks, and intelligence. This event is recognized as the official birth of AI.
+\end{itemize}
+
+\textbf{Automata Studies (1956):} 
+\begin{itemize}
+    \item \textbf{} John McCarthy and Claude Shannon edited a volume that lacked a strong focus on AI.
+\end{itemize}
+
+\subsection{Machine Translation Efforts (1957)}
+\begin{itemize}
+    \item \textbf{Herbert Simon's Statement:} Simon claims that machines now think, learn, and create, and predicts rapid advancements in their capabilities to match human cognitive abilities.
+    \item \textbf{Machine Translation Efforts:} The U.S. National Research Council funds projects to expedite the translation of Russian scientific papers, revealing challenges in early machine translation, exemplified by humorous errors.
+\end{itemize}
+
+\subsection{Chess, Advice Taker, and LISP Developments (1958)}
+\begin{itemize}
+    \item \textbf{Newell, Shaw \& Simon's Chess Program:} Notable developments in AI with chess-playing programs created by Newell, Shaw, and Simon.
+    \item \textbf{John McCarthy's Predicate Calculus:} John McCarthy introduced the idea of predicate calculus to represent knowledge through his program “Advice Taker,” allowing it to reason based on information instead of just following pre-written instructions.
+    \item \textbf{Introduction of Lisp:} McCarthy defines the Lisp programming language in MIT AI Lab Memo No. 1, which becomes a dominant AI programming language for the next 30 years.
+    \item \textbf{McCarthy’s "Programs with Common Sense":} McCarthy publishes a paper outlining the Advice Taker, considered one of the first complete AI systems designed to solve problems using knowledge. Notably, he introduced Lisp in MIT AI Lab Memo No. 1, establishing it as the primary programming language for AI development for the following three decades.
+    \item \textbf{Marvin Minsky Joins MIT:} Minsky moves to MIT, collaborating with McCarthy but eventually diverging in focus from formal logic to practical programming.
+    \item \textbf{Genetic Algorithms:} Friedberg introduces genetic algorithms, proposing that small mutations in machine-code programs can lead to improved performance, although early attempts show limited progress.
+    \item \textbf{Perceptron Research:} Frank Rosenblatt's work on perceptrons garners attention; perceptrons are simple pattern recognition devices with basic learning capabilities based on linear threshold logic.
+    \item \textbf{LISP Development Begins:} John McCarthy starts developing LISP, which becomes a prominent programming language in AI.
+    \item \textbf{Formation of MIT AI Lab:} The Massachusetts Institute of Technology establishes its AI laboratory, fostering further AI research.
+\end{itemize}
+
+
+\subsection{Visual and Problem Solver (1959)}
+\begin{itemize}
+
+\item \textbf{Term Machine Learning:}
+Arthur Samuel coined the term “machine learning” during a speech about teaching machines to play chess better than their human programmers.
+    \item \textbf{Biological Vision Studies:} Research on biological vision systems informs AI development.
+    \item \textbf{Geometry Theorem Prover:} Herbert Gelernter constructs a program capable of proving complex theorems.
+    \item \textbf{General Problem Solver (GPS):} Newell, Shaw, and Simon develop the GPS, a significant AI program for problem-solving.
+\end{itemize}
+
+\subsection{Enhancements to Hebb’s Learning Methods (1960)}
+ Bernie Widrow improves Hebb's methods with adalines, and Frank Rosenblatt develops perceptrons, advancing neural network research.
+
+%% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+
+\section{Excitement and Limitations (1960 - 1970)}
+Early 1960s advancements in AI research involved continued exploration of pattern recognition and self-adapting systems as AI research evolved, building on foundations laid in the previous decade.
+
+\subsection{Adaptive control theory (1960)}
+\begin{itemize}
+    \item Adaptive control theory was introduced by Widrow \& Hoff. Widrow-Hoff Learning Rule describes a method for adjusting the weights of an adaptive linear neuron (ADALINE) based on the error between the desired output and the actual output.
+
+\end{itemize}
+
+\subsection{Limitations and Industry (1961)}
+\begin{itemize}
+    \item John Lucas argues that limitations in AI apply to both humans and machines in his paper "Minds, Machines and Gödel"
+    \item First Robot Industrial installed.
+\end{itemize}
+
+\subsection{Perceptron (1962)}
+\begin{itemize}
+    \item Frank Rosenblatt's work on perceptrons advances learning and pattern recognition.
+    \item Bernie Widrow enhances Hebb's learning methods, calling his networks \textit{adalines}.
+    \item Perceptron Convergence Theorem (Block et al., 1962): A perceptron's learning algorithm can adjust its connection strengths to fit any given input data, as long as a suitable match is possible.
+\end{itemize}
+
+
+
+
+\subsection{Vision and AI Labs (1963)}
+\begin{itemize}
+    \item Roberts contributed to significant advancements in machine vision, drawing insights from biological vision systems.
+    \item John McCarthy established the AI lab at Stanford University.
+    \item James Slagle's SAINT program effectively solved calculus integration problems typical of first-year college courses.
+    \item Winograd and Cowan demonstrated that multiple elements can together represent individual concepts, enhancing robustness and parallelism.
+     \item  \textbf{The MENACE Program:} Created by Donald Michie, the Matchbox Educable Noughts and Crosses Engine (MENACE) learned to play tic-tac-toe using a matchbox and matchsticks to represent game states, showcasing early concepts of reinforcement learning in machine learning.
+
+
+\end{itemize}
+
+
+\subsection{The STUDENT program (1964)}
+Daniel Bobrow's STUDENT program was one of the first natural language processing systems that solved algebra problems from everyday language. Using a rule-based approach, it interpreted and solved math queries, marking a key AI advancement. Written in LISP, the program leveraged the language's strengths in symbolic computation, making it foundational for AI research.
+
+\subsection{DENDRAL (1965)}
+\begin{itemize}
+    \item J. A. Robinson developed the resolution method for logical inference.
+    \item At Stanford University, J. Lederberg, Edward Feigenbaum, and Carl Djerassi initiated the DENDRAL project.
+    \item DENDRAL is an expert system that identifies molecular structures based solely on the compound's constituents and mass spectra data.
+    \item DENDRAL is recognized as the first knowledge-based expert system ever created.
+    \item ELIZA, a chatbot, was developed.
+    \item Chomsky’s work in computational linguistics advanced the field.
+    
+
+\end{itemize}
+
+\subsection{Funding Cut-off (1966)}
+\begin{itemize}
+    \item A report reveals the limitations of machine translation for scientific text, leading to the cancellation of U.S. government funding for academic translation projects.
+   
+\end{itemize}
+
+\subsection{Samuel's Checkers (1967)}
+\begin{itemize}
+    \item Samuel developed a program for playing checkers games.
+    \item Daniel Bobrow's STUDENT program solved algebra story problems.
+\end{itemize}
+
+\subsection{Solve Mathematical Problems(1968)}
+\begin{itemize}
+    \item The MACSYMA project was initiated at MIT by Carl Engelman, William Martin, and Joel Moses. This program, written in LISP, is a sophisticated interactive tool designed to address a variety of mathematical problems and builds upon the foundational work of the earlier SIN integration-solving program.
+     \item SYSTRAN, the first machine translation focused on Russian-English translation during the Cold War, was developed.
+\end{itemize}
+
+\subsection{Late 1960s}
+\begin{itemize}
+    \item \textbf{\large 1969:} 
+    \begin{itemize}
+        \item Minsky and Papert's book \textit{Perceptrons} demonstrated the limitations of single-layer perceptrons.
+        \item Arthur Bryson and Yu-Chi Ho introduced the backpropagation learning algorithm for multilayer networks, although it did not gain widespread attention until the 1980s when it was popularized by Geoffrey Hinton and others.
+        \item Cordell Green's QA3 system implemented predicate calculus for knowledge representation, establishing a foundation for AI in this area.
+        \item The DENDRAL program, created by Feigenbaum, Buchanan, and Lederberg at Stanford, inferred molecular structures from mass spectrometer data.
+    \end{itemize}
+   
+    \item \textbf{\large 1970:} 
+    \begin{itemize}
+        \item The introduction of the blocks world microworld paved the way for vision projects, including Patrick Winston's learning theory in 1970s.
+    \end{itemize}
+\end{itemize}
+
+% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+
+\section{Knowledge-Based Systems (1970 - 1980)}
+The late 1970s and early 1980s saw the rise of more sophisticated programs that incorporated extensive domain-specific knowledge, mimicking expert human performance in tasks like diagnosis and design.
+
+\subsection{DENDRAL System (1971)}
+\begin{itemize}
+    \item DENDRAL, developed by Feigenbaum, Buchanan, and Lederberg, was one of the first systems to demonstrate the value of specialized knowledge, predicting organic molecule structures.
+\end{itemize}
+
+\subsection{MYCIN &\ (1972)}
+\begin{itemize}
+    \item Developed by Feigenbaum, Buchanan, and Dr. Edward Shortliffe, MYCIN diagnosed blood infections using 450 rules, outperforming junior doctors.
+        \item Prolog appeared, which is a logic programming language that provides a declarative approach to problem-solving and handles symbolic information
+\end{itemize}
+
+\subsection{Lighthill Report (1973)}
+\begin{itemize}
+    \item The Lighthill report led to the British government ending support for AI research in all but two universities.
+\end{itemize}
+
+\subsection{Natural Language Understanding (1972 - 1973)}
+\begin{itemize}
+    \item Jerry Winograd's early natural language understanding system paved the way for continuous speech understanding projects, like NASA's LUNAR system, which could respond to spoken queries about lunar rock samples.
+\end{itemize}
+
+\subsection{First AI Winter (1973)}
+\begin{itemize}
+    \item The First AI Winter began due to disappointing results from early AI projects, leading to reduced funding.
+
+\end{itemize}
+
+\subsection{Blocks World (1974)}
+\begin{itemize}
+    \item The Blocks World was home to the vision project of Scott Fahlman, focused on planning.
+        \item  "AI winter" refers to the decline in funding and interest in AI research due to unmet expectations and criticisms of existing technologies.
+\end{itemize}
+
+\subsection{ Objects, Events, and Frames (1975)}
+\begin{itemize}
+    \item  \textbf { Emergence of Knowledge-Based Systems:}David Waltz's vision and constraint-propagation work, along with Minsky's structured approach to organizing facts about objects and events into a taxonomic hierarchy.
+   \item  \textbf {Development of MYCIN}:  Research shifted towards developing expert systems like MYCIN, which focused on medical diagnosis, marking a revival in AI interest through practical applications.
+\end{itemize}
+
+\subsection{Shortliffe (1976)}
+\begin{itemize}
+    \item Expert systems for medical diagnosis emerged, leading to the formulation of the physical symbol system hypothesis by Newell and Simon.
+\end{itemize}
+
+\subsection{Schank (1977-1978)}
+\begin{itemize}
+    \item Schank and his students developed programs aimed at understanding natural language.
+   \item Work continued on expert systems, with MYCIN (for medical diagnosis) and PROSPECTOR (for mineral exploration) being notable examples from this period
+\end{itemize}
+
+\subsection{Publication and Stanford Cart (1979)}
+\begin{itemize}
+    \item Pamela McCorduck's book, "Machines Who Think," provided a detailed history of AI, documenting its development, key figures, and philosophical questions. 
+    \item  From 1960 to 1980, the Stanford Cart evolved into various forms and can be considered a legacy project initially built for lunar rover application but later used for studying visual navigation. This year also saw the development of the Stanford Cart, an autonomous vehicle.
+\end{itemize}
+
+
+% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+
+
+
+\section{Booming and AI Winter (1980-1990)}
+
+In the mid-1980s, the back-propagation learning algorithm, originally discovered in 1969 or precursors of BackPropagation was even back in 1676, 1964, and 1950s was rediscovered by several groups and widely applied to learning problems, gaining attention through the publication of *Parallel Distributed Processing* in 1986. Connectionist models, supported by these algorithms, emerged as rivals to symbolic AI models and logic-based approaches.
+While symbolic knowledge representation and logical reasoning had useful applications and significant funding in the 1980s, they struggled with perception, robotics, learning, and common sense. This led some scientists to doubt their sufficiency and explore alternatives like connectionism, robotics, soft computing, and reinforcement learning, which Nils Nilsson termed "sub-symbolic."
+This period saw a resurgence in neural network research, leading to a significant expansion of the AI industry from millions in 1980 to billions by 1988. However, the "AI Winter" followed as many companies failed to meet high expectations.
+
+\subsection{American Association for Artificial Intelligence (1980:)}
+The First National Conference of the AAAI took place at Stanford University, serving as a pivotal event for AI researchers and practitioners.
+\subsection{Competition and Efforts (1981)}
+\begin{itemize}
+    \item Bacon's algorithms were part of an AI program for discovery learning, inducing physical laws from data collections.
+    \item In 1981, Japan launched the "Fifth Generation" project using Prolog, prompting the U.S. to form the MCC and Britain to restore AI funding through the Alvey report. Despite efforts, none of these projects achieved their ambitious goals.
+\end{itemize}
+
+\subsection{Hopfield Network (1982)}
+\begin{itemize}
+    \item John Hopfield revived artificial neural networks (ANN) and introduced the Hopfield Network.
+    \item Judea Pearl introduced normative expert systems (1980s) that act rationally according to decision theory without imitating human thought processes.
+    \item The first successful commercial expert system, R1 (XCON), began operation at Digital Equipment Corporation, assisting in configuring orders for new computer systems.
+    \item Other expert systems were developed for medical diagnosis and resource evaluation.
+\end{itemize}
+
+\subsection{Soar Cognitive architecture (1983)}
+John Laird and Paul Rosenbloom, working with Allen Newell, completed their dissertations on the Soar cognitive architecture, which focused on integrating learning and problem-solving in AI systems.
+
+\subsection{Robot Control (1984)}
+\begin{itemize}
+    \item Efforts were made in mobile robot control, but scaling these programs to real-world problems revealed limitations, with many systems only solving "toy problems."
+\end{itemize}
+
+\subsection{AARON Demonstration (1985)}
+Harold Cohen demonstrated the autonomous drawing program AARON(originally created in 1973) at the AAAI National Conference in 1985.
+\subsection{BackPropagation Introduced (1986)}
+\begin{itemize}
+    \item By 1986, R1 saved Digital Equipment Corporation an estimated \$40 million annually.
+    \item Geoffrey Hinton introduced back-propagation, enhancing artificial neural networks.
+    \item Eric Horvitz and David Heckerman promoted the idea of normative expert systems.
+     \item \textbf{ First Self-Driving Car:} Aerospace engineer Ernst Dickmanns and his team at Bundeswehr University Munich unveiled the first self-driving car, a Mercedes van equipped with computers, cameras, and sensors, capable of reaching 55 mph on empty roads.
+          \item \textbf{ Connectionism:} Research on connectionist models, inspired by the human brain, gained momentum. These models, based on interconnected nodes, later laid the foundation for deep learning.
+\end{itemize}
+
+
+\subsection{Second AI Winter (1987)}
+\begin{itemize}
+    \item The second AI winter is generally considered to have started in 1987 and lasted until around 1993. 
+
+    \item LISP Hardware Collapse: Specialized LISP companies failed as affordable systems from Apple and IBM emerged, reducing interest in LISP technologies.
+
+ \item Alacrity Launch: Alctrious Inc. launched Alacrity, the first managerial advisory system for decision-making in business.
+ \end{itemize}
+ 
+\subsection{Boom and AI Winter (1988)}
+\begin{itemize}
+    \item The AI industry grew to billions, with many companies developing expert systems, robots, and AI hardware.
+    \item However, the "AI Winter" followed due to companies failing to meet their promises, despite DEC using 40 expert systems and DuPont utilizing 100, saving \$10 million annually.
+\end{itemize}
+
+\subsection{Probabilistic Reasoning and Data Mining (1988)}
+\begin{itemize}
+    \item Data mining fueled a new industry, while Judea Pearl's *Probabilistic Reasoning in Intelligent Systems* revived probability and decision theory in AI, building on interest sparked by Peter Cheeseman's 1985 article, "In Defense of Probability."
+\end{itemize}
+
+\subsection{Limitations (1989-1990)}
+\begin{itemize}
+    \item By 1989, Penrose and most logicians believed that limitations apply to both humans and machines.
+       \item \textbf{ ALVINN Development:} Dean Pomerleau created ALVINN at Carnegie Mellon, enabling autonomous navigation using neural networks in the Navlab program.
+
+  \item \textbf{ VLSI Technology Publication:} The publication "Analog VLSI Implementation of Neural Systems" by Carver A. Mead and Mohammed Ismail advanced the practical application of neural networks in hardware through MOS VLSI technology.
+\end{itemize}
+
+
+% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+
+\section{Modern AI Robotics and Machine Learning (1991 - 2000)}
+
+In this era, machine translation evolved similarly to speech recognition, experiencing initial enthusiasm in the 1950s for word sequence-based models grounded in information theory. This approach fell out of favor in the 1960s but made a resurgence in the late 1990s, now dominating the field of machine translation.
+
+Bayesian networks efficiently represent and reason with uncertain knowledge, addressing earlier probabilistic systems' limitations. They became central to AI research in uncertain reasoning and expert systems, supporting learning from experience and integrating classical AI with neural networks.
+
+Allen Newell, John Laird, and Paul Rosenbloom created SOAR, a well-known complete agent architecture. The Internet became a crucial environment for intelligent agents, making AI systems common in web applications and popularizing the “-bot” suffix in everyday language.
+
+Sensory systems like vision and speech recognition often lack reliability, requiring reasoning and planning systems to manage uncertainty effectively. AI increasingly connected with fields like control theory and economics, focusing on agents. Recent advances in robotic car control resulted from improved sensors and the integration of sensing, localization, mapping, and high-level planning.
+
+\subsection{DART Program (1991)}
+The U.S. military's Dynamic Analysis and Replanning Tool (DART), funded by DARPA, optimized logistics and decision-making by automating logistical feasibility assessments for military operations.
+
+\subsection{ TD-Gammon (1992)}
+\begin{itemize}
+    \item  
+ \textbf {NASA's Undersea Robot:} Carol Stoker and the NASA Ames robotics team operated the Telepresence ROV to explore marine life in Antarctica, showcasing advancements in robotics and AI's role in scientific exploration.
+    \item  \textbf {TD-Gammon:} Gerry Tesauro's backgammon program, TD-Gammon, showcased the potential of reinforcement learning by competing at a championship level against world-class players. This program represented a significant advancement in AI's ability to learn from experience.
+\end{itemize}
+
+\subsection{Polly Robot and Cog Project  (1993)}
+\begin{itemize}
+    \item
+Polly, created by Ian Horswill, was the first robot to navigate using vision at speeds of about 1 meter/second, advancing behavior-based robotics. Expert systems were still prominent, with applications in various fields including medicine, finance, and manufacturing.
+    \item  
+Rodney Brooks, Lynn Andrea Stein, and Cynthia Breazeal launched the MIT Cog project to create a humanoid robot child within five years.
+\end{itemize}
+
+\subsection{IBM's Deep Blue (1994)}
+IBM's Deep Blue chess computer played Garry Kasparov for the first time, losing the match.
+Robotics research also made progress, with the development of robots that could perform more complex tasks, such as navigating environments and interacting with humans.
+
+\subsection{CYC Project (1995)}
+Natural language understanding systems were limited to specific domains, necessitating improvements in general knowledge representation. The CYC project sought to compile commonsense knowledge. Methodologically, AI firmly embraced the scientific method, requiring hypotheses to undergo rigorous empirical experiments, with results analyzed statistically (Cohen, 1995).
+
+
+\subsection{Modern AI Boom SubFields: (1996)}
+\begin{itemize}
+    \item  
+ \textbf {Machine Learning Applications:} Machine learning algorithms began to be applied to a wider range of tasks, including data mining, fraud detection, and medical diagnosis.
+ \item  
+ \textbf {Robotics:} The first official RoboCup competition was announced, to boost AI and robotics.
+  \item  
+ \textbf {NLP and Speech Recognition:} Dragon Naturally Speaking commercial pioneered continuous speech recognition product, while NLP advancements shifted focus toward machine learning techniques.
+\end{itemize}
+
+\subsection{AI Victory over Human Chess Champion (1997)}
+AI made significant strides in game-playing, culminating in IBM's DEEP BLUE's victory over world chess champion Garry Kasparov in 1997, showcasing advanced search algorithms and specialized hardware.
+
+\subsection{Breaking Isolation (1998)}
+David McAllester (1998) noted that early AI relied on symbolic computation, leading to isolation from mainstream computer science. Recognition grew that AI should integrate with machine learning, information theory, uncertain reasoning, stochastic modeling, search and optimization, and automated reasoning with formal methods.
+
+\subsection{ The Launch of AIBO (1999)}
+ Sony released AIBO, an autonomous robotic dog, demonstrating advancements in robotics and AI's application in consumer products.
+
+\section{Explosions, Ambitions \& Neural Networks (2000 - 2010)}
+
+Historically, computer science focused on algorithms. Recent AI research indicates that prioritizing data over specific algorithms is often more beneficial. This shift is driven by vast data sources, including trillions of words, billions of images (Kilgarriff and Grefenstette, 2006), and genomic sequences (Collins et al., 2003).
+
+\subsection{Introduction of Kismet  (2001)}
+MIT's Cynthia Breazeal developed Kismet, a robot designed to interact with humans by recognizing and simulating emotions through facial expressions. 
+
+\subsection{Roomba Launch (2002)}
+Roomba introduces AI to homes. The robotic vacuum cleaner Roomba was launched by iRobot.
+
+
+\subsection{DARPA Grand Challenge(2003)}
+
+DARPA launched the DARPA Grand Challenge, a prize competition for autonomous vehicles.
+
+\subsection{NASA's Mars Rovers(2004)}
+\begin{itemize}
+     \item 
+NASA's Spirit and Opportunity rovers operated on Mars, autonomously navigating the surface and demonstrating advancements in robotics and space exploration.
+\end{itemize}
+
+
+\subsection{DARPA Grand Challenge (2005)}
+
+\begin{itemize}
+     \item  The second DARPA Grand Challenge featured autonomous vehicles navigating a desert course, showcasing advancements in self-driving technology and fueling interest in autonomous research.
+\end{itemize}
+
+ 
+\subsection{Deep Learning (2006) }
+\begin{itemize}
+    \item  Geoffrey Hinton popularized the term “Deep Learning” and Multilayer Artificial Neural Networks.
+ \item Tech Companies Like Facebook, Twitter, Netflix integrate AI in business.
+  \item AI researcher Fei-Fei Li began working on the idea for ImageNet in 2006
+ \end{itemize}
+ 
+\subsection{AGI Conference (2007-2008)}
+\begin{itemize}
+ \item AI tools powered devices like Apple Siri, enhancing NLP capabilities. Artificial General Intelligence (AGI) (Goertzel and Pennachin, 2007) aimed to develop a universal algorithm capable of learning and operating in any environment, originating from Ray Solomonoff's 1964 work. 
+
+ \item \textbf{ImageNet Project Launch:} In 2007, Fei-Fei Li and her team at Princeton initiated the ImageNet project, creating a vast database of annotated images to advance research in visual object recognition. This became pivotal for developments in computer vision.
+ 
+  \item AGI's first conference and the Journal of Artificial General Intelligence were established in 2008, with a key concern ensuring that created AI systems are genuinely Friendly AI (Yudkowsky, 2008; Omohundro, 2008).
+
+ \item Development of Deep Learning Techniques: Research in deep learning continued
+ \end{itemize}
+
+
+ \subsection{  Deep Unsupervised Learning (2009)}
+ \begin{itemize}
+ \item 
+ \textbf{ Google's Self-Driving Car Project:} Google secretly working on self-driving cars (now Waymo) began testing its self-driving car technology
+
+  \item  \textbf{ Deep Unsupervised Learning Breakthrough:} In 2007, Rajat Raina, Anand Madhavan, and Andrew Ng published a paper on using GPUs for large-scale deep unsupervised learning, showcasing their potential to transform deep learning approaches.
+
+ \end{itemize}
+ 
+\subsection{Discontent with AI Progress (2005, 2007, 2009)}
+Despite significant achievements, figures like John McCarthy (2007), Marvin Minsky (2007), Nils Nilsson (1995, 2005), and Patrick Winston (Beal and Winston, 2009) expressed dissatisfaction with AI advancements. They advocated focusing less on advanced applications for specific tasks and more on creating “machines that think, that learn, and that create,” a vision articulated by Simon. This initiative is known as human-level AI (HLAI), with its first symposium held in 2004 (Minsky et al., 2004).
+
+ \subsection{ ILSVRC Launch and Kinect Xbox   (2010)}
+ \begin{itemize}
+ \item \textbf{ ILSVRC Launch:} The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) was launched in 2010, providing a competitive platform for testing image recognition algorithms and significantly advancing computer vision technologies.
+ \item Microsoft launched Kinect for Xbox 360, using AI for motion sensing and voice recognition in gaming.
+ \end{itemize}
+ 
+\section{AI Revolutions and Leap of Faith (2010 - 2020)}
+
+
+\subsection{IBM Watson's Jeopardy! Victory (2011)}
+\begin{itemize}
+    \item 
+IBM's Watson defeated former champions Ken Jennings and Brad Rutter in a special edition of the game show Jeopardy!, showcasing its advanced natural language processing capabilities.
+
+ \item  Apple introduced Siri, bringing conversational AI assistants to mainstream smartphones
+\end{itemize}
+
+\subsection{Computer Vision (2012)}
+\begin{itemize}
+    \item  
+AlexNet, a CNN developed by Geoffrey Hinton and his students, won the ImageNet Competition, marking a groundbreaking work in computer vision.
+\item   Google Brain project demonstrated the ability to learn to recognize cats from unlabeled YouTube videos.
+\end{itemize}
+
+\subsection{NEIL Released (2013)}
+\begin{itemize}
+    \item  
+ Carnegie Mellon University released NEIL (Never Ending Image Learner), an AI system designed to continuously learn from images and analyze relationships between them.
+
+\end{itemize}
+
+\subsection{Virtual Assistant and Google DeepMind (2014) }
+\begin{itemize}
+    \item  
+Microsoft's Cortana Launch:  a virtual assistant that utilized natural language processing to perform tasks and answer questions
+
+    \item  Google acquired DeepMind for \$500 million.
+    \item   Amazon introduced Alexa and the Echo smart speaker.
+        \item GAN (Generative Adversarial Networks) concept was initially developed by Ian Goodfellow and his colleagues 
+\end{itemize}
+\subsection{AlphaGo and OpenAI (2015) }
+\begin{itemize}
+    \item 
+OpenAI was founded.
+\item 
+Google DeepMind's AlphaGo defeated European Go champion Fan Hui, a major milestone in game AI.
+\item 
+Elon Musk, Stephen Hawking, Wozniak oppose autonomous weapons.
+\item 
+In October 2015, Tesla's software update brought Autopilot to the public, introducing semi-autonomous features like lane centering and traffic-aware cruise control in Tesla cars.
+\end{itemize}
+
+
+\subsection{AlphaGo's Vectory (2016)}
+\begin{itemize}
+    \item Google DeepMind's AlphaGo defeated world champion Go player Lee Sedol
+       \item  Hanson Robotics unveils robot citizen Sophia.
+
+\end{itemize}
+
+\subsection{"Attention Is All You Need"(2017)}
+\begin{itemize}
+    \item \textbf{  "Attention Is All You Need"} is a 2017 landmark research paper in machine learning authored by eight scientists working at Google. This paper introduced The transformer architecture was introduced, revolutionizing natural language processing. 
+    \item \textbf{ Transformer Architecture Launch: } The transformer architecture was introduced, paving the way for advanced language models like Google's BERT, enhancing natural language understanding significantly.
+
+       \item \textbf{  OpenAI Dota 2 Victory: }OpenAI bot defeats pro player Dendi in Dota 2 (1v1).
+
+    \item \textbf{ Google Lens Launch: }Google Lens connects images to text descriptions.
+     \item Facebook's AI chatbots develop autonomous language.
+
+\end{itemize}
+
+
+
+\subsection{BERT and GPT (2018)}
+\begin{itemize}
+    \item \textbf{ BERT Release:}  Google introduced BERT (Bidirectional Encoder Representations from Transformers), enhancing natural language understanding and improving search algorithms.
+
+     \item OpenAI released GPT (Generative Pre-trained Transformer) language model.
+
+     \item Google demonstrated Duplex, an AI system capable of making phone calls and scheduling appointments.
+     \item Alibaba’s AI outperforms humans in reading test.
+
+\end{itemize}
+
+
+\subsection{GPT-2 and T-NLG (2019)}
+\begin{itemize}
+    \item OpenAI's GPT-2 showcased impressive text generation capabilities.
+
+  \item  DeepMind's AlphaStar reached Grandmaster level in StarCraft II.
+  \item  Ethical Discussions:
+  \item  {T-NLG Launched:} Microsoft unveils Turing NLG with 17 billion parameters, enhancing AI's text generation abilities.
+
+\end{itemize}
+
+\section{OpenAI Revolutionized: AI Hype-Race, Building AGI? (2020 - Present)}
+\begin{itemize}
+    \item \textbf{2020:}
+    \begin{itemize}
+        \item \textbf{COVID-19 Pandemic:} AI played a crucial role in developing vaccines, tracking virus spread, and assisting in medical diagnosis, showcasing the potential of AI in healthcare.
+        \item \textbf{DeepMind's AlphaFold:} Achieved a significant breakthrough in protein folding prediction, revolutionizing biological research and creating hype around AI's problem-solving capabilities.
+        \item \textbf{GPT-3 Released:} OpenAI launched GPT-3, a state-of-the-art language model that surpassed previous models, creating immense excitement and setting the stage for the AI hype-race.
+    \end{itemize}
+
+    \item \textbf{2021:} 
+    \begin{itemize}
+        \item \textbf{ChatGPT-3:} One of the first large language models (LLMs) with over 174 billion parameters. It revolutionized natural language processing, allowing for applications such as chatbots, content generation, and automation, driving the AI startup boom.
+        \item \textbf{Generative AI Revolution:} Tools like DALL-E and Stable Diffusion became popular, transforming the creative field by enabling machines to generate high-quality images from text descriptions. This sparked the hype of AI creativity, leading to new startups in design, art, and media.
+    \end{itemize}
+
+    \item \textbf{2022:}
+    \begin{itemize}
+        \item \textbf{GitHub Copilot Lawsuit:} A class-action lawsuit was filed against Microsoft and GitHub for AI-generated code, highlighting legal and ethical concerns in AI-driven automation.
+        \item \textbf{AI's Legal Challenges:} With growing lawsuits on copyright and data usage, the question of AI’s legal boundaries became central in the conversation, impacting how startups and tech giants approach AI development.
+        \item \textbf{ChatGPT Debuts:} OpenAI launched ChatGPT, gaining immense attention for its conversational capabilities, yet criticisms arose around factual inaccuracies, drawing attention to the limitations of AI models.
+    \end{itemize}
+
+    \item \textbf{2023:}
+    \begin{itemize}
+        \item \textbf{ChatGPT's Rapid Growth:} By January, ChatGPT surpassed 100 million users, becoming the fastest-growing consumer app and spurring further investments in AI-driven startups.
+        \item \textbf{AI Hype and Startup Revolution:} The AI boom led to the founding of countless startups, leveraging AI for industries like healthcare, finance, education, and entertainment, transforming business models and job markets globally.
+        \item \textbf{Multi-modal AI and AGI Aspirations:} ChatGPT introduced multi-modal features such as text-to-image and text-to-voice integration. Despite the advancements, AGI (Artificial General Intelligence) remained elusive but became a long-term goal for companies like OpenAI and Google.
+        \item \textbf{Gemini Release:} Google's Gemini AI was launched in response to ChatGPT, intensifying the AI race and pushing AI technologies towards more sophisticated applications across industries.
+        \item \textbf{GPT-4 and Claude Release:} OpenAI launched GPT-4, and Anthropic released Claude, focusing on safety, reasoning, and human alignment, which shifted the discourse to more responsible AI development.
+    \end{itemize}
+
+    \item \textbf{2024 - Present:}
+    \begin{itemize}
+        \item \textbf{Gemini 1.5 Release:} Google's Gemini 1.5 boasted improved context handling and processing power, further fueling competition in AI development.
+        \item \textbf{Sora Announced:} OpenAI announced Sora, a model for generating text-to-video content, advancing the integration of multimedia in AI systems.
+        \item \textbf{Impact of AI Startups:} Startups played a pivotal role in revolutionizing industries by providing AI-powered solutions, from autonomous systems to personalized services, transforming market dynamics and increasing competitiveness.
+        \item \textbf{Future of AI and AGI:} AGI (Artificial General Intelligence) is a theoretical form of AI capable of performing any intellectual task a human can. Unlike narrow AI, which is task-specific, AGI would learn, reason, and solve problems across multiple domains autonomously. With continued advancements, companies remain focused on achieving AGI, raising ethical concerns about automation's impact on labor markets, privacy, and society. The race toward AGI continues, with breakthroughs expected to reshape industries and human life fundamentally.
+    \end{itemize}
+\end{itemize}
+
+
+% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+
+\section{Exploring Historical Events and Facts}
+
+Whether philosophical, mechanical, or digital, there were many historical attempts to make machines intelligent. In the ancient era, philosophers and critical thinkers have given thought and tried to decipher the intelligent machine. "Machine intelligence,” "Cognology,” and "Artificial Intelligence” are the proposed names for the field. We will be calling Machine Intelligence instead of Artificial intelligence if the term "Artificial Intelligence" is not chosen and accepted. Twentieth-century logicians like Kurt Gödel, Stephen Kleene, and Alan Turing clarified the limits of logical and computational systems. While some philosophers viewed these limitations as evidence that human intelligence could not be mechanized. most logicians and computer scientists believe that these limitations apply to both humans and machines.
+
+In the past, AI research captured significant attention on human intelligence's various capabilities, including visual perception and language comprehension. It was predicted that there would likely be a greater focus on integrated autonomous systems—robots and "softbots. " Softbots, or software agents, navigate the Internet to discover relevant information for users. The continuous drive to enhance the capabilities of robotic and software agents will shape the future of AI research for years to come. Now, in 2024, we can see chatbots, LLMs, customer service, and virtual assistants acting as intelligent agents.
+
+John McCarthy's moving to Dartmouth from Stanford in 1951 ignited the formal birth of AI as a distinct field that attempts to build machines that will function autonomously in complex and changing environments. AI was founded in part as a rebellion against the limitations of existing fields like control theory and statistics, but now it is embracing those fields.
+
+The period from 1952 to 1969, referred to by John McCarthy as the “Look, Ma, no hands!” era, marked significant early successes in artificial intelligence, with many initial challenges being addressed. During this time, advancements in formal grammar, rooted in early 20th-century logic, introduced new approaches to language theories in linguistics.
+
+
+In the 1950s, electronic stored-program digital computers became commercially viable, following prototypes like the Mark I, ENIAC, EDVAC, and UNIVAC. Key developments for AI included Claude Shannon's information theory, psychological neurological models, and advances in Boolean algebra, switching theory, and statistical decision theory. AI's foundation also draws on centuries of research from influential figures like Aristotle, Leibnitz, Babbage, and Hollerith, whose contributions paved the way for modern AI.
+
+In the late 1950s, several significant AI projects emerged, including GPS (a general problem solver), a Geometry Theorem-Proving Machine (which developed proofs from basic axioms), and EPAM (designed for pattern recognition and memory, learning stimulus-response pairs through repetition).
+
+Herbert Simon's 1957 statement is frequently cited:
+"I don’t intend to surprise you, but simply put, there are now machines that can think, learn, and create. Furthermore, their capabilities will grow swiftly, and in the foreseeable future, the range of problems they can solve will match that of the human mind."
+
+Early machine translation efforts received significant funding from the U.S. National Research Council to accelerate the translation of Russian scientific papers after the 1957 Sputnik launch. However, challenges arose, exemplified by the famous mistranslation of "the spirit is willing but the flesh is weak" as "the vodka is good but the meat is rotten."
+In the 1960s and early 1970s, AI research focused on problem representation, search techniques, and heuristics to develop computer programs capable of solving puzzles, playing games, and retrieving information.
+
+
+From 1966 to 1973, AI researchers, including Herbert Simon, predicted rapid advancements in machine capabilities. Simon stated in 1957 that machines could think, learn, and create, expecting them to solve problems like the human mind within a "visible future." He anticipated that a computer would become a chess champion and prove significant mathematical theorems within ten years. While some predictions eventually came true, it took around 40 years instead of the projected ten, as early AI systems struggled with complex challenges. \\
+
+The first \textbf{AI Winter} is generally considered to have occurred in the \textit{late 1960s and early 1970s}, following \textbf{overblown expectations} and \textit{limited successes} in early AI research. \\
+A second \textbf{AI Winter} took place in the \textit{1980s}, partly due to the \textbf{high cost} of early AI hardware and software, as well as a \textit{lack of practical applications}.\\
+
+In the 1990s, this trend began to reverse, with machine learning tools proving effective for many problems, leading to significant benefits from the reintegration of AI technologies.
+
+From the 1990s to the present, AI and robotics have undergone significant evolution. Expert systems declined while neural networks gained prominence. NLP and speech recognition improved, with companies like IBM and Dragon Systems making key contributions. The 2000s saw advancements in robotics (e.g., Honda's ASIMO) and autonomous vehicles. Deep learning breakthroughs in the 2010s led to major improvements in image recognition and NLP. AI applications expanded across sectors including healthcare, education, military, and space exploration. Recent developments include virtual assistants, advanced language models like GPT-3, and Boston Dynamics' agile robots. These advancements have raised important ethical and societal questions as AI continues to integrate into various aspects of life and work.
+
+
+
+% -------=================================-------=================================
+% -------=================================-------=================================
+% -------=================================-------=================================
+
+\section{Limitations and Discussion}
+
+While systems like Expert Systems, DENDRAL, and ELIZA were significant advancements in their time, they were limited by their reliance on explicit programming and rule-based approaches. However, recent advancements in machine learning, particularly deep learning, have shown promising results in addressing these limitations. Neural networks, inspired by the structure of the human brain, have demonstrated remarkable capabilities in tasks such as image recognition, natural language processing, computer vision, creativity/generative, translation, code generation, analysis, and many more.
+
+Many problems once perceived as hard to solve have become easier, while those thought to be simple have grown more complex. This shift highlights the importance of not underestimating challenges, as our understanding evolves. We may not fully grasp all the components needed to create true AI, so it's essential to be guided by mathematics, research, experiments, and insights from various interdisciplinary fields.
+
+In reviewing historical innovations and their implementations, it becomes evident that substantial computing power and resources will be requisite. As technological advancements progress increasingly, the demand for such capabilities escalates correspondingly. However, there will always be dedicated stakeholders, entities, or agents actively engaged in the pursuit of enhancing efficiency and optimization.
+
+The history of artificial intelligence (AI) is marked by a series of significant events and advancements, as well as notable failures within the field. Given the vastness of the subject, this review paper aims to catalog these milestones, emphasizing their importance rather than delving into extensive critical analysis. Magazines and Newspapers can be significant reliable sources for collecting additional historical events
+
+It is important to note that until now [2024] no machine has surpassed the Turing Test and human intelligence, although many argue ultimately, machines will surpass human intelligence. Also, nobody has a clear pathway to developing Artificial General Intelligence (AGI).  There is no set timeline for AGI’s practical realization, and it is still a topic of debate.
+
+Effective leadership and motivation, as exemplified by the Dartmouth Conference, are essential for progress. An open approach, rather than criticism, encourages the exploration of diverse ideas, which can enhance artificial intelligence's ability to innovate and think creatively.
+
+\section{Conclusion}
+The history and foundations of AI illustrate a rich and evolving field influenced by both theoretical advancements and practical applications. By examining the contributions of key figures and the shifting paradigms within AI, we gain a deeper understanding of its development into its current form. 
+
+For instance, while symbolic rules dominated the field in the past year, emerging connectionist ideas are now taking precedence. However, this shift does not imply that previous works in AI are irrelevant; rather, we cannot predict when certain mathematics, concepts, ideas, or research will become necessary in the future. Both symbol-based computation and connectionist approaches are significant, complementary, and subject to debate.
+
+The recent hype surrounding AI and the competition among major tech companies signals progress toward the development of true AI or Artificial General Intelligence (AGI). Therefore, the trajectory of this field is unpredictable, and the ideas and rules we currently employ may or may not remain sufficient or relevant in the future. Transformations, the financial wealth generated by AI, democratizing AI, guidelines and proper rules, and ethics in AI are some parameters to consider! 
+
+AI has evolved from abstract philosophical ideas to mechanical systems, from vacuum tubes to transistors, and into the digital age, transforming from early PCs to the smartphones we carry today. As we continually push technological boundaries, there's an increasing possibility that machines could surpass human-level intelligence. AGI's defining traits like Self-teaching (Learning new skills independently), Problem-solving(Handling complex tasks like humans), and Adaptability(Adjusting to new challenges without pre-programming). Currently, AGI is hypothetical, with no systems achieving it yet. Research approaches include symbolic AI, neural networks, and robotics, but experts disagree on when AGI will emerge—ranging from 2027 to beyond 2300. While it promises advancements in areas like healthcare, AGI.
+If achieved, AGI would fundamentally change how we interact with technology, potentially shifting global power dynamics, economies, and even our understanding of creativity, autonomy, and life itself. This evolution suggests that the world, as we know it today, will not remain the same. Thus, as we evolve AI, we must simultaneously address the societal ethical concerns regarding safety, control, and unintended consequences and ethical implications of this powerful technology.
+
+\begin{thebibliography}{9}
+\bibitem{poole} 
+David L. Poole and Alan K. Mackworth. 
+\textit{Artificial Intelligence: Foundations of Computational Agents}. Cambridge University Press, 2010.
+
+\bibitem{nilsson} 
+Nils J. Nilsson. 
+\textit{The Quest for Artificial Intelligence: A History of Ideas and Achievements}. Cambridge University Press, 2010.
+
+\bibitem{russell} 
+Stuart Russell and Peter Norvig. 
+\textit{Artificial Intelligence: A Modern Approach}. Pearson, 2016.
+
+\bibitem{patterson} 
+Daniel W. Patterson. 
+\textit{Artificial Intelligence and Expert Systems}. Prentice Hall, 1990.
+
+\bibitem{luger} 
+George F. Luger. 
+\textit{Artificial Intelligence: Structures and Strategies for Complex Problem Solving}. Benjamin/Cummings Publishing, 2009.
+
+\bibitem{tableau} 
+Tableau. 
+\textit{History of AI}. Available at:\url{https://www.tableau.com/data-insights/ai/history}
+
+\bibitem{Wikipedia} 
+Wikipedia.
+\textit{All Information Related to AI History:} \url{https://en.wikipedia.org/}
+
+\end{thebibliography}
+
+\end{document}
+
