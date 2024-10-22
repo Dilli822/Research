@@ -84,3 +84,6 @@ create_timeline(modern_ai_events, color='blue', title='Modern AI Milestones')
 
 # Plot Classical AI
 create_timeline(classical_ai_events, color='orange', title='Classical AI Milestones')
+
+
+# https://chatgpt.com/share/6715d681-b648-8007-ab0d-f88286b6c88b
