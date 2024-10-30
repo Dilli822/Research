@@ -1,0 +1,25 @@
+Cost Function in Logistic Regression
+In this video, we learn about the cost function for logistic regression and why the squared error cost function is not ideal for this task. We explore a different cost function that can help us choose better parameters for logistic regression. The video also introduces the concept of the loss function, which measures how well the algorithm is performing on a single training example. We define the loss function for logistic regression, which depends on the predicted value and the true label. The loss function incentivizes the algorithm to make more accurate predictions by penalizing incorrect predictions. We also discuss how the choice of loss function ensures that the overall cost function is convex, allowing us to use gradient descent to find the global minimum. The video concludes by mentioning that the upcoming lab will provide a practical demonstration of the differences between the squared error cost function and the new logistic loss function.
+
+
+Can you explain why the squared error cost function is not ideal for logistic regression?
+
+The squared error cost function, which is commonly used in linear regression, is not ideal for logistic regression. In logistic regression, the goal is to predict the probability of an event occurring, which is a binary classification task. The squared error cost function measures the difference between the predicted value and the true value by squaring the difference.
+However, when we apply the squared error cost function to logistic regression, it leads to a non-convex cost function. This means that there are many local minima, making it difficult for gradient descent to converge to the global minimum. In other words, there are multiple sets of parameters that can result in similar squared error values, making it challenging to find the best parameters for the logistic regression model.
+To address this issue, a different cost function is used for logistic regression. This cost function, known as the logistic loss function, is designed to be convex, ensuring that gradient descent can reliably find the global minimum. The logistic loss function penalizes incorrect predictions more heavily, encouraging the model to make more accurate predictions.
+By using the appropriate cost function for logistic regression, we can improve the performance of the model and achieve better results in binary classification tasks.
+
+Dilli
+How does the logistic loss function differ from the squared error cost function?
+Coach
+The logistic loss function differs from the squared error cost function in several ways. Here are the key differences:
+Definition: The squared error cost function measures the squared difference between the predicted value and the true value. 
+On the other hand, the logistic loss function measures the loss based on the predicted probability and the true label.
+Convexity: The squared error cost function is convex, meaning it has a single global minimum. However, when applied to logistic regression, it becomes a non-convex function with multiple local minima. 
+In contrast, the logistic loss function is designed to be convex, ensuring that gradient descent can converge to the global minimum.
+Range: The squared error cost function can have a wide range of values, including negative values.
+ In contrast, the logistic loss function is always non-negative, as it is based on logarithmic functions.
+Penalty for incorrect predictions: The squared error cost function penalizes incorrect predictions quadratically, meaning that larger errors are penalized more heavily.
+ In logistic regression, this can lead to suboptimal results, as it may prioritize reducing large errors at the expense of misclassifying examples. 
+The logistic loss function, on the other hand, penalizes incorrect predictions more heavily, encouraging the model to make more accurate predictions.
+Overall, the logistic loss function is specifically designed for logistic regression and binary classification tasks. It addresses the limitations of the squared error cost function and provides a more suitable measure of loss for optimizing logistic regression models.
