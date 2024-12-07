@@ -10,3 +10,5 @@ https://en.wikipedia.org/wiki/Cancer
 https://www.kaggle.com/datasets/erdemtaha/cancer-data
 https://archive.ics.uci.edu/dataset/16/breast+cancer+wisconsin+prognostic
 
+#### Experiments
+https://colab.research.google.com/drive/1cWEGf1bAeSG3kdAsIjVHFNzGamff1VSG?usp=sharing
