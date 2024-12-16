@@ -1,0 +1,52 @@
+Classification Results using MinMax Normalization:
+
+Accuracy of Logistic Regression (MinMax Normalization) (MinMax Normalization): 98.25%
+Accuracy of Decision Tree (MinMax Normalization) (MinMax Normalization): 92.98%
+Accuracy of Random Forest (MinMax Normalization) (MinMax Normalization): 96.49%
+Accuracy of KNN (MinMax Normalization) (MinMax Normalization): 96.49%
+Accuracy of Naive Bayes (MinMax Normalization) (MinMax Normalization): 96.49%
+Accuracy of Gradient Boosting (MinMax Normalization) (MinMax Normalization): 95.61%
+Accuracy of MLP (MinMax Normalization) (MinMax Normalization): 98.25%
+Accuracy of QDA (MinMax Normalization) (MinMax Normalization): 95.61%
+
+
+Classification Results using Custom Normalization:
+
+Accuracy of Logistic Regression (MinMax Normalization) (Custom Normalization): 95.61%
+Accuracy of Decision Tree (MinMax Normalization) (Custom Normalization): 94.74%
+Accuracy of Random Forest (MinMax Normalization) (Custom Normalization): 96.49%
+Accuracy of KNN (MinMax Normalization) (Custom Normalization): 96.49%
+Accuracy of Naive Bayes (MinMax Normalization) (Custom Normalization): 96.49%
+Accuracy of Gradient Boosting (MinMax Normalization) (Custom Normalization): 95.61%
+Accuracy of MLP (MinMax Normalization) (Custom Normalization): 95.61%
+Accuracy of QDA (MinMax Normalization) (Custom Normalization): 95.61%
+
+
+Regression Results using MinMax Normalization:
+
+Mean Squared Error of SVM Regression (MinMax Normalization) (MinMax Normalization): 0.06
+Mean Squared Error of Linear Regression (MinMax Normalization) (MinMax Normalization): 0.06
+Mean Squared Error of Ridge Regression (MinMax Normalization) (MinMax Normalization): 0.06
+Mean Squared Error of Lasso Regression (MinMax Normalization) (MinMax Normalization): 0.23
+Mean Squared Error of ElasticNet Regression (MinMax Normalization) (MinMax Normalization): 0.23
+Mean Squared Error of Decision Tree Regression (MinMax Normalization) (MinMax Normalization): 0.06
+Mean Squared Error of Random Forest Regression (MinMax Normalization) (MinMax Normalization): 0.03
+Mean Squared Error of Gradient Boosting Regression (MinMax Normalization) (MinMax Normalization): 0.03
+Mean Squared Error of KNN Regression (MinMax Normalization) (MinMax Normalization): 0.03
+Mean Squared Error of AdaBoost Regression (MinMax Normalization) (MinMax Normalization): 0.03
+Mean Squared Error of Gaussian Process Regression (MinMax Normalization) (MinMax Normalization): 0.22
+
+
+Regression Results using Custom Normalization:
+
+Mean Squared Error of SVM Regression (MinMax Normalization) (Custom Normalization): 0.06
+Mean Squared Error of Linear Regression (MinMax Normalization) (Custom Normalization): 0.06
+Mean Squared Error of Ridge Regression (MinMax Normalization) (Custom Normalization): 0.07
+Mean Squared Error of Lasso Regression (MinMax Normalization) (Custom Normalization): 0.23
+Mean Squared Error of ElasticNet Regression (MinMax Normalization) (Custom Normalization): 0.23
+Mean Squared Error of Decision Tree Regression (MinMax Normalization) (Custom Normalization): 0.07
+Mean Squared Error of Random Forest Regression (MinMax Normalization) (Custom Normalization): 0.03
+Mean Squared Error of Gradient Boosting Regression (MinMax Normalization) (Custom Normalization): 0.03
+Mean Squared Error of KNN Regression (MinMax Normalization) (Custom Normalization): 0.03
+Mean Squared Error of AdaBoost Regression (MinMax Normalization) (Custom Normalization): 0.02
+Mean Squared Error of Gaussian Process Regression (MinMax Normalization) (Custom Normalization): 0.52

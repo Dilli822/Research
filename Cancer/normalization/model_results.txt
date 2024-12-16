@@ -1,0 +1,48 @@
+Results for Breast Cancer - Normalized Data (MinMaxScaler):
+SVM Accuracy: 0.9737
+Logistic Regression Accuracy: 0.9825
+Decision Tree Accuracy: 0.9474
+Random Forest Accuracy: 0.9649
+
+Results for Breast Cancer - Manually Normalized Data:
+SVM Accuracy: 0.9649
+Logistic Regression Accuracy: 0.9561
+Decision Tree Accuracy: 0.9386
+Random Forest Accuracy: 0.9649
+
+Results for Iris - Normalized Data (MinMaxScaler):
+SVM Accuracy: 1.0000
+Logistic Regression Accuracy: 0.9667
+Decision Tree Accuracy: 1.0000
+Random Forest Accuracy: 1.0000
+
+Results for Iris - Manually Normalized Data:
+SVM Accuracy: 1.0000
+Logistic Regression Accuracy: 0.9667
+Decision Tree Accuracy: 1.0000
+Random Forest Accuracy: 1.0000
+
+Results for Wine - Normalized Data (MinMaxScaler):
+SVM Accuracy: 1.0000
+Logistic Regression Accuracy: 1.0000
+Decision Tree Accuracy: 0.9444
+Random Forest Accuracy: 1.0000
+
+Results for Wine - Manually Normalized Data:
+SVM Accuracy: 1.0000
+Logistic Regression Accuracy: 0.9722
+Decision Tree Accuracy: 0.9444
+Random Forest Accuracy: 1.0000
+
+Results for Digits - Normalized Data (MinMaxScaler):
+SVM Accuracy: 0.9833
+Logistic Regression Accuracy: 0.9667
+Decision Tree Accuracy: 0.8611
+Random Forest Accuracy: 0.9806
+
+Results for Digits - Manually Normalized Data:
+SVM Accuracy: 0.9833
+Logistic Regression Accuracy: 0.9667
+Decision Tree Accuracy: 0.8528
+Random Forest Accuracy: 0.9778
+
