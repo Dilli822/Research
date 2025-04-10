@@ -1,0 +1,36 @@
+Observations
+Epochs: 500 epochs might be excessive for this task, especially with a small dataset or frozen base model. Consider early stopping to prevent overfitting.
+
+Test Data: The test set only has two samples (Person_08/rec_2 and Person_02/rec_1). This is too small for robust evaluation—metrics like EER and ROC may not generalize well.
+
+Normalization: You normalize X_train and X_test separately. Ideally, use the same min/max values (e.g., from training data) for consistency.
+
+Data Balance: If most records are imposters (0s), the dataset might be imbalanced, skewing the baseline accuracy and model performance.
+
+
+
+Input: (224, 224, 3)  <-- Spectrogram RGB Image
+    |
+    v
+[MobileNet (Pre-trained, Frozen)]
+    |
+    v
+[GlobalAveragePooling2D]
+    |
+    v
+[Reshape: (1, 1024)]
+    |
+    v
+[GRU Layer (64 Units)]
+    |
+    v
+[Dropout (Rate: 0.3)]
+    |
+    v
+[Dense (32 Units, Activation: ReLU)]
+    |
+    v
+[Dense (1 Unit, Activation: Sigmoid)]
+    |
+    v
+Output: Probability (0 to 1)
